@@ -187,8 +187,3 @@ This milestone does not claim Nessus/ACAS scanning, STIG compliance, an RMF auth
 
 The seven images in `evidence/` are original screenshots from the lab, copied without editing. Some contain incidental desktop content, login banners, and earlier command errors. They show a lab username and private IP addresses, not a public production target. The raw log file remains on the lab VM and Windows host; it is not included in this repository package.
 
-## Reusing this portfolio
-
-Upload this README and the entire `evidence/` directory together to a GitHub repository so the relative image links work. Suggested repository name: `linux-remote-administration-lab`.
-
-Suggested repository description: **RHEL 9.8 Hyper-V lab demonstrating Windows-to-Linux SSH administration, authentication-log review, SCP evidence transfer, and SHA-256 integrity verification.**
