@@ -18,7 +18,7 @@ This repository documents my progress through practical exercises, commands, tro
 |---|---|---|
 | [01 — Remote Administration and Log Integrity](./01-remote-administration/README.md) | Network configuration, SSH, administrative access, authentication logs, SCP, and SHA-256 verification | Completed |
 | [02 — Linux File Ownership and Permissions](./02-file-permissions/README.md) | File modes, directory access, deletion controls, umask, and group-based access tests | Completed |
-| 03 — Patching and Change Control | Update assessment, change documentation, validation, and recovery planning | Planned |
+| [03 — Patching and Change Control](./03-patching-and-change-control/README.md) | Update assessment, recovery checkpoint, security patching, reboot validation, and evidence collection | Completed |
 | 04 — Vulnerability Management | Nessus scanning, finding analysis, remediation, and rescanning | Planned |
 
 ## Completed milestone: Part 1
