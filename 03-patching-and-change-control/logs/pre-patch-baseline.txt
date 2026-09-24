@@ -1,0 +1,17 @@
+2026-09-23T21:43:26-04:00
+linux-test
+Red Hat Enterprise Linux release 9.8 (Plow)
+5.14.0-687.5.3.el9_8.x86_64
+Filesystem             Size  Used Avail Use% Mounted on
+/dev/mapper/rhel-root   37G  5.3G   32G  15% /
+/dev/sda2              960M  434M  527M  46% /boot
+  UNIT                            LOAD   ACTIVE SUB    DESCRIPTION
+● insights-client-results.service loaded failed failed Check for insights from Red Hat Cloud Services
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+1 loaded units listed.
+Enforcing
+active
+active

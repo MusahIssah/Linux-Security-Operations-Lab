@@ -1,0 +1,29 @@
+Change: LAB-003 — Security patching
+Target: linux-test, RHEL 9.8
+Purpose: Apply available security-related updates.
+Preview: Install 5 packages, upgrade 221; download 452 MB.
+Impact: Package changes and planned reboot; temporary SSH outage.
+Pre-change health: SELinux enforcing; SSH and firewall active.
+Insights results check recovered successfully; zero failed units.
+Recovery point: Before-Part3-Security-Patching
+Rollback trigger: Boot failure or loss of essential access that
+cannot be resolved during the lab maintenance session.
+Recovery action: Preserve failure evidence outside the VM, then
+restore the named checkpoint through Hyper-V if needed.
+Validation: Successful reboot, updated kernel, SSH access,
+firewall active, SELinux enforcing, no unexplained failed units,
+and review of remaining security advisories.
+Status: Implementation pending.
+
+Completion:
+DNF transaction 2 returned Success.
+Reboot completed; running kernel is 5.14.0-687.50.1.el9_8.x86_64.
+Windows-to-Linux SSH access verified.
+SELinux enforcing; sshd and firewalld active.
+Zero failed systemd units after reboot.
+Refreshed repositories reported no remaining security advisory rows.
+dnf check returned exit code 0.
+Post-patch package inventory saved.
+Rollback was not required or tested.
+Final status: Implemented and validated successfully.
+2026-09-23T22:28:35-04:00

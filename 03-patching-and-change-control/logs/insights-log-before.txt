@@ -1,0 +1,7 @@
+Sep 23 21:08:48 linux-test systemd[1]: Starting Check for insights from Red Hat Cloud Services...
+Sep 23 21:08:49 linux-test insights-client[5451]: Error: failed to find host with matching machine-id. Check the registration status:
+Sep 23 21:08:49 linux-test insights-client[5451]: # insights-client --status
+Sep 23 21:08:50 linux-test systemd[1]: insights-client-results.service: Main process exited, code=exited, status=1/FAILURE
+Sep 23 21:08:50 linux-test systemd[1]: insights-client-results.service: Failed with result 'exit-code'.
+Sep 23 21:08:50 linux-test systemd[1]: Failed to start Check for insights from Red Hat Cloud Services.
+Sep 23 21:08:50 linux-test systemd[1]: insights-client-results.service: Consumed 1.080s CPU time.

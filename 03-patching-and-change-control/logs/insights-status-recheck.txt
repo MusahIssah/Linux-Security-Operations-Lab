@@ -1,0 +1,13 @@
+○ insights-client-results.service - Check for insights from Red Hat Cloud Services
+     Loaded: loaded (/usr/lib/systemd/system/insights-client-results.service; static)
+     Active: inactive (dead) since Wed 2026-09-23 21:52:34 EDT; 8s ago
+TriggeredBy: ● insights-client-results.path
+       Docs: man:insights-client(8)
+    Process: 5786 ExecStart=/usr/bin/insights-client --check-results (code=exited, status=0/SUCCESS)
+   Main PID: 5786 (code=exited, status=0/SUCCESS)
+        CPU: 1.075s
+
+Sep 23 21:52:33 linux-test systemd[1]: Starting Check for insights from Red Hat Cloud Services...
+Sep 23 21:52:34 linux-test systemd[1]: insights-client-results.service: Deactivated successfully.
+Sep 23 21:52:34 linux-test systemd[1]: Finished Check for insights from Red Hat Cloud Services.
+Sep 23 21:52:34 linux-test systemd[1]: insights-client-results.service: Consumed 1.075s CPU time.

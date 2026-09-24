@@ -1,0 +1,13 @@
+2026-09-23T22:23:10-04:00
+linux-test
+5.14.0-687.50.1.el9_8.x86_64
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+0 loaded units listed.
+Enforcing
+active
+active
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+eth0             UP             172.28.160.117/20 fe80::215:5dff:fe38:18c/64 
+Filesystem             Size  Used Avail Use% Mounted on
+/dev/mapper/rhel-root   37G  5.9G   31G  16% /
+/dev/sda2              960M  551M  410M  58% /boot

@@ -1,0 +1,2 @@
+System is registered locally via .registered file. Registered at 2026-09-23T21:07:40.973409
+Insights API confirms registration.

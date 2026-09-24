@@ -1,0 +1,1716 @@
+Updating Subscription Management repositories.
+Last metadata expiration check: 0:32:41 ago on Wed 23 Sep 2026 09:37:58 PM EDT.
+Dependencies resolved.
+========================================================================================================================
+ Package                                   Arch    Version                       Repository                         Size
+========================================================================================================================
+Installing:
+ kernel                                    x86_64  5.14.0-687.50.1.el9_8         rhel-9-for-x86_64-baseos-rpms     1.0 M
+Upgrading:
+ NetworkManager                            x86_64  1:1.54.3-5.el9_8              rhel-9-for-x86_64-baseos-rpms     2.4 M
+ NetworkManager-adsl                       x86_64  1:1.54.3-5.el9_8              rhel-9-for-x86_64-baseos-rpms      36 k
+ NetworkManager-bluetooth                  x86_64  1:1.54.3-5.el9_8              rhel-9-for-x86_64-baseos-rpms      62 k
+ NetworkManager-config-server              noarch  1:1.54.3-5.el9_8              rhel-9-for-x86_64-baseos-rpms      21 k
+ NetworkManager-libnm                      x86_64  1:1.54.3-5.el9_8              rhel-9-for-x86_64-baseos-rpms     1.9 M
+ NetworkManager-team                       x86_64  1:1.54.3-5.el9_8              rhel-9-for-x86_64-baseos-rpms      41 k
+ NetworkManager-tui                        x86_64  1:1.54.3-5.el9_8              rhel-9-for-x86_64-baseos-rpms     251 k
+ NetworkManager-wifi                       x86_64  1:1.54.3-5.el9_8              rhel-9-for-x86_64-baseos-rpms      84 k
+ NetworkManager-wwan                       x86_64  1:1.54.3-5.el9_8              rhel-9-for-x86_64-baseos-rpms      69 k
+ PackageKit                                x86_64  1.2.6-2.el9_8                 rhel-9-for-x86_64-appstream-rpms  652 k
+ PackageKit-command-not-found              x86_64  1.2.6-2.el9_8                 rhel-9-for-x86_64-appstream-rpms   27 k
+ PackageKit-glib                           x86_64  1.2.6-2.el9_8                 rhel-9-for-x86_64-appstream-rpms  162 k
+ PackageKit-gstreamer-plugin               x86_64  1.2.6-2.el9_8                 rhel-9-for-x86_64-appstream-rpms   22 k
+ PackageKit-gtk3-module                    x86_64  1.2.6-2.el9_8                 rhel-9-for-x86_64-appstream-rpms   21 k
+ aardvark-dns                              x86_64  2:1.17.1-1.el9_8              rhel-9-for-x86_64-appstream-rpms  887 k
+ acl                                       x86_64  2.4.0-1.el9_8                 rhel-9-for-x86_64-baseos-rpms      83 k
+ attr                                      x86_64  2.6.0-1.el9_8                 rhel-9-for-x86_64-baseos-rpms      72 k
+ bind-libs                                 x86_64  32:9.16.23-40.el9_8.9         rhel-9-for-x86_64-appstream-rpms  1.3 M
+ bind-license                              noarch  32:9.16.23-40.el9_8.9         rhel-9-for-x86_64-appstream-rpms   19 k
+ bind-utils                                x86_64  32:9.16.23-40.el9_8.9         rhel-9-for-x86_64-appstream-rpms  213 k
+ buildah                                   x86_64  2:1.43.3-2.el9_8              rhel-9-for-x86_64-appstream-rpms   11 M
+ cockpit                                   x86_64  356.3-1.el9_8                 rhel-9-for-x86_64-baseos-rpms      37 k
+ cockpit-bridge                            noarch  356.3-1.el9_8                 rhel-9-for-x86_64-baseos-rpms     642 k
+ cockpit-packagekit                        noarch  356.3-1.el9_8                 rhel-9-for-x86_64-appstream-rpms  942 k
+ cockpit-storaged                          noarch  356.3-1.el9_8                 rhel-9-for-x86_64-appstream-rpms  865 k
+ cockpit-system                            noarch  356.3-1.el9_8                 rhel-9-for-x86_64-baseos-rpms     5.1 M
+ cockpit-ws                                x86_64  356.3-1.el9_8                 rhel-9-for-x86_64-baseos-rpms     1.1 M
+ cockpit-ws-selinux                        x86_64  356.3-1.el9_8                 rhel-9-for-x86_64-baseos-rpms      49 k
+ containernetworking-plugins               x86_64  1:1.9.0-4.el9_8               rhel-9-for-x86_64-appstream-rpms   13 M
+ coreutils                                 x86_64  8.32-41.el9_8.1               rhel-9-for-x86_64-baseos-rpms     1.2 M
+ coreutils-common                          x86_64  8.32-41.el9_8.1               rhel-9-for-x86_64-baseos-rpms     2.0 M
+ cups                                      x86_64  1:2.3.3op2-39.el9_8           rhel-9-for-x86_64-appstream-rpms  1.5 M
+ cups-client                               x86_64  1:2.3.3op2-39.el9_8           rhel-9-for-x86_64-appstream-rpms   76 k
+ cups-filesystem                           noarch  1:2.3.3op2-39.el9_8           rhel-9-for-x86_64-appstream-rpms   15 k
+ cups-filters                              x86_64  1.28.7-27.el9_8               rhel-9-for-x86_64-appstream-rpms  808 k
+ cups-filters-libs                         x86_64  1.28.7-27.el9_8               rhel-9-for-x86_64-appstream-rpms  140 k
+ cups-ipptool                              x86_64  1:2.3.3op2-39.el9_8           rhel-9-for-x86_64-appstream-rpms  3.9 M
+ cups-libs                                 x86_64  1:2.3.3op2-39.el9_8           rhel-9-for-x86_64-baseos-rpms     267 k
+ curl                                      x86_64  7.76.1-40.el9_8.7             rhel-9-for-x86_64-baseos-rpms     300 k
+ dbus-broker                               x86_64  28-9.el9_8                    rhel-9-for-x86_64-baseos-rpms     176 k
+ dnsmasq                                   x86_64  2.85-18.el9_8.2               rhel-9-for-x86_64-appstream-rpms  334 k
+ dracut                                    x86_64  057-120.git20260728.el9_8     rhel-9-for-x86_64-baseos-rpms     482 k
+ dracut-config-rescue                      x86_64  057-120.git20260728.el9_8     rhel-9-for-x86_64-baseos-rpms      19 k
+ dracut-network                            x86_64  057-120.git20260728.el9_8     rhel-9-for-x86_64-baseos-rpms      93 k
+ dracut-squash                             x86_64  057-120.git20260728.el9_8     rhel-9-for-x86_64-baseos-rpms      19 k
+ evince                                    x86_64  40.5-4.el9_8.1                rhel-9-for-x86_64-appstream-rpms  2.2 M
+ evince-libs                               x86_64  40.5-4.el9_8.1                rhel-9-for-x86_64-appstream-rpms  382 k
+ evince-nautilus                           x86_64  40.5-4.el9_8.1                rhel-9-for-x86_64-appstream-rpms   22 k
+ evince-previewer                          x86_64  40.5-4.el9_8.1                rhel-9-for-x86_64-appstream-rpms   31 k
+ evince-thumbnailer                        x86_64  40.5-4.el9_8.1                rhel-9-for-x86_64-appstream-rpms   21 k
+ expat                                     x86_64  2.5.0-6.el9_8.3               rhel-9-for-x86_64-baseos-rpms     126 k
+ firefox                                   x86_64  140.16.0-1.el9_8              rhel-9-for-x86_64-appstream-rpms  115 M
+ firewalld                                 noarch  1.3.4-20.el9_8                rhel-9-for-x86_64-baseos-rpms     542 k
+ firewalld-filesystem                      noarch  1.3.4-20.el9_8                rhel-9-for-x86_64-baseos-rpms      15 k
+ flatpak                                   x86_64  1.12.9-4.el9_8.1              rhel-9-for-x86_64-appstream-rpms  1.7 M
+ flatpak-libs                              x86_64  1.12.9-4.el9_8.1              rhel-9-for-x86_64-appstream-rpms  511 k
+ flatpak-selinux                           noarch  1.12.9-4.el9_8.1              rhel-9-for-x86_64-appstream-rpms   27 k
+ flatpak-session-helper                    x86_64  1.12.9-4.el9_8.1              rhel-9-for-x86_64-appstream-rpms   79 k
+ giflib                                    x86_64  5.2.1-10.el9_8.2              rhel-9-for-x86_64-appstream-rpms   53 k
+ glib2                                     x86_64  2.68.4-19.el9_8.10            rhel-9-for-x86_64-baseos-rpms     2.6 M
+ glibc                                     x86_64  2.34-275.el9_8                rhel-9-for-x86_64-baseos-rpms     2.0 M
+ glibc-all-langpacks                       x86_64  2.34-275.el9_8                rhel-9-for-x86_64-baseos-rpms      18 M
+ glibc-common                              x86_64  2.34-275.el9_8                rhel-9-for-x86_64-baseos-rpms     314 k
+ glibc-gconv-extra                         x86_64  2.34-275.el9_8                rhel-9-for-x86_64-baseos-rpms     1.7 M
+ glibc-langpack-en                         x86_64  2.34-275.el9_8                rhel-9-for-x86_64-baseos-rpms     668 k
+ gnutls                                    x86_64  3.8.10-8.el9_8                rhel-9-for-x86_64-baseos-rpms     1.4 M
+ gstreamer1-plugins-bad-free               x86_64  1.22.12-7.el9_8.4             rhel-9-for-x86_64-appstream-rpms  2.5 M
+ gstreamer1-plugins-bad-free-libs          x86_64  1.22.12-7.el9_8.4             rhel-9-for-x86_64-appstream-rpms  780 k
+ gstreamer1-plugins-base                   x86_64  1.22.12-8.el9_8.2             rhel-9-for-x86_64-appstream-rpms  2.3 M
+ gstreamer1-plugins-good                   x86_64  1.22.12-7.el9_8.8             rhel-9-for-x86_64-appstream-rpms  2.4 M
+ gstreamer1-plugins-good-gtk               x86_64  1.22.12-7.el9_8.8             rhel-9-for-x86_64-appstream-rpms   40 k
+ gstreamer1-plugins-ugly-free              x86_64  1.22.12-6.el9_8.2             rhel-9-for-x86_64-appstream-rpms  286 k
+ gzip                                      x86_64  1.12-2.el9_8                  rhel-9-for-x86_64-baseos-rpms     169 k
+ hplip-common                              x86_64  3.21.2-6.el9_8.5              rhel-9-for-x86_64-appstream-rpms   73 k
+ hplip-libs                                x86_64  3.21.2-6.el9_8.5              rhel-9-for-x86_64-appstream-rpms  169 k
+ iscsi-initiator-utils                     x86_64  6.2.1.11-1.git4b3e853.el9_8.2 rhel-9-for-x86_64-baseos-rpms     399 k
+ iscsi-initiator-utils-iscsiuio            x86_64  6.2.1.11-1.git4b3e853.el9_8.2 rhel-9-for-x86_64-baseos-rpms      87 k
+ isns-utils-libs                           x86_64  0.101-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms     105 k
+ jq                                        x86_64  1.6-19.el9_8.2                rhel-9-for-x86_64-baseos-rpms     193 k
+ kbd                                       x86_64  2.4.0-12.el9_8                rhel-9-for-x86_64-baseos-rpms     423 k
+ kbd-legacy                                noarch  2.4.0-12.el9_8                rhel-9-for-x86_64-baseos-rpms     568 k
+ kbd-misc                                  noarch  2.4.0-12.el9_8                rhel-9-for-x86_64-baseos-rpms     1.7 M
+ kernel-tools                              x86_64  5.14.0-687.50.1.el9_8         rhel-9-for-x86_64-baseos-rpms     1.3 M
+ kernel-tools-libs                         x86_64  5.14.0-687.50.1.el9_8         rhel-9-for-x86_64-baseos-rpms     1.0 M
+ krb5-libs                                 x86_64  1.21.1-10.el9_8               rhel-9-for-x86_64-baseos-rpms     772 k
+ libXfont2                                 x86_64  2.0.3-12.el9_8.3              rhel-9-for-x86_64-appstream-rpms  149 k
+ libacl                                    x86_64  2.4.0-1.el9_8                 rhel-9-for-x86_64-baseos-rpms      31 k
+ libarchive                                x86_64  3.5.3-11.el9_8                rhel-9-for-x86_64-baseos-rpms     393 k
+ libattr                                   x86_64  2.6.0-1.el9_8                 rhel-9-for-x86_64-baseos-rpms      23 k
+ libcap                                    x86_64  2.48-10.el9_8.1               rhel-9-for-x86_64-baseos-rpms      77 k
+ libcurl                                   x86_64  7.76.1-40.el9_8.7             rhel-9-for-x86_64-baseos-rpms     290 k
+ libevent                                  x86_64  2.1.13-1.el9_8                rhel-9-for-x86_64-baseos-rpms     270 k
+ libexif                                   x86_64  0.6.22-6.el9_8.1              rhel-9-for-x86_64-appstream-rpms  441 k
+ libgcrypt                                 x86_64  1.10.0-13.el9_8               rhel-9-for-x86_64-baseos-rpms     512 k
+ libipa_hbac                               x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      38 k
+ libkcapi                                  x86_64  1.4.0-3.el9_8                 rhel-9-for-x86_64-baseos-rpms      51 k
+ libkcapi-hmaccalc                         x86_64  1.4.0-3.el9_8                 rhel-9-for-x86_64-baseos-rpms      31 k
+ libldb                                    x86_64  4.23.5-11.el9_8               rhel-9-for-x86_64-baseos-rpms     193 k
+ libnghttp2                                x86_64  1.43.0-6.el9_8.2              rhel-9-for-x86_64-baseos-rpms      79 k
+ libpng                                    x86_64  2:1.6.37-15.el9_8.2           rhel-9-for-x86_64-baseos-rpms     122 k
+ libsane-hpaio                             x86_64  3.21.2-6.el9_8.5              rhel-9-for-x86_64-appstream-rpms   91 k
+ libsmbclient                              x86_64  4.23.5-11.el9_8               rhel-9-for-x86_64-baseos-rpms      81 k
+ libsndfile                                x86_64  1.0.31-9.el9_8.1              rhel-9-for-x86_64-appstream-rpms  211 k
+ libsolv                                   x86_64  0.7.24-6.el9_8                rhel-9-for-x86_64-baseos-rpms     408 k
+ libsoup                                   x86_64  2.72.0-16.el9_8.3             rhel-9-for-x86_64-appstream-rpms  413 k
+ libssh                                    x86_64  0.10.4-19.el9_8               rhel-9-for-x86_64-baseos-rpms     221 k
+ libssh-config                             noarch  0.10.4-19.el9_8               rhel-9-for-x86_64-baseos-rpms      14 k
+ libsss_certmap                            x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      92 k
+ libsss_idmap                              x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      43 k
+ libsss_nss_idmap                          x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      48 k
+ libsss_sudo                               x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      37 k
+ libtasn1                                  x86_64  4.16.0-10.el9_8               rhel-9-for-x86_64-baseos-rpms      80 k
+ libtiff                                   x86_64  4.4.0-18.el9_8.1              rhel-9-for-x86_64-appstream-rpms  203 k
+ libwbclient                               x86_64  4.23.5-11.el9_8               rhel-9-for-x86_64-baseos-rpms      50 k
+ libxml2                                   x86_64  2.9.13-14.el9_8.4             rhel-9-for-x86_64-baseos-rpms     755 k
+ libxslt                                   x86_64  1.1.34-14.el9_8.1             rhel-9-for-x86_64-appstream-rpms  248 k
+ microcode_ctl                             noarch  4:20260210-1.20260812.1.el9_8 rhel-9-for-x86_64-baseos-rpms      15 M
+ mpg123-libs                               x86_64  1.32.9-1.el9_5                rhel-9-for-x86_64-appstream-rpms  354 k
+ openssh                                   x86_64  9.9p1-11.el9_8                rhel-9-for-x86_64-baseos-rpms     433 k
+ openssh-clients                           x86_64  9.9p1-11.el9_8                rhel-9-for-x86_64-baseos-rpms     781 k
+ openssh-server                            x86_64  9.9p1-11.el9_8                rhel-9-for-x86_64-baseos-rpms     554 k
+ openssl                                   x86_64  1:3.5.8-1.el9_8               rhel-9-for-x86_64-baseos-rpms     1.5 M
+ openssl-fips-provider                     x86_64  3.0.7-11.el9_8                rhel-9-for-x86_64-baseos-rpms      14 k
+ openssl-fips-provider-so                  x86_64  3.0.7-11.el9_8                rhel-9-for-x86_64-baseos-rpms     581 k
+ openssl-libs                              x86_64  1:3.5.8-1.el9_8               rhel-9-for-x86_64-baseos-rpms     2.3 M
+ p11-kit                                   x86_64  0.26.4-1.el9_8                rhel-9-for-x86_64-baseos-rpms     611 k
+ p11-kit-server                            x86_64  0.26.4-1.el9_8                rhel-9-for-x86_64-appstream-rpms   28 k
+ p11-kit-trust                             x86_64  0.26.4-1.el9_8                rhel-9-for-x86_64-baseos-rpms     162 k
+ pam                                       x86_64  1.5.1-28.el9_8.1              rhel-9-for-x86_64-baseos-rpms     630 k
+ perl-AutoLoader                           noarch  5.74-484.el9_8                rhel-9-for-x86_64-appstream-rpms   26 k
+ perl-B                                    x86_64  1.80-484.el9_8                rhel-9-for-x86_64-appstream-rpms  186 k
+ perl-Class-Struct                         noarch  0.66-484.el9_8                rhel-9-for-x86_64-appstream-rpms   27 k
+ perl-DBI                                  x86_64  1.643-9.el9_8.5               rhel-9-for-x86_64-appstream-rpms  731 k
+ perl-DynaLoader                           x86_64  1.47-484.el9_8                rhel-9-for-x86_64-appstream-rpms   31 k
+ perl-Errno                                x86_64  1.30-484.el9_8                rhel-9-for-x86_64-appstream-rpms   20 k
+ perl-Fcntl                                x86_64  1.13-484.el9_8                rhel-9-for-x86_64-appstream-rpms   25 k
+ perl-File-Basename                        noarch  2.85-484.el9_8                rhel-9-for-x86_64-appstream-rpms   22 k
+ perl-File-Find                            noarch  1.37-484.el9_8                rhel-9-for-x86_64-appstream-rpms   30 k
+ perl-File-stat                            noarch  1.09-484.el9_8                rhel-9-for-x86_64-appstream-rpms   22 k
+ perl-FileHandle                           noarch  2.03-484.el9_8                rhel-9-for-x86_64-appstream-rpms   20 k
+ perl-Getopt-Std                           noarch  1.12-484.el9_8                rhel-9-for-x86_64-appstream-rpms   20 k
+ perl-IO                                   x86_64  1.43-484.el9_8                rhel-9-for-x86_64-appstream-rpms   95 k
+ perl-IPC-Open3                            noarch  1.21-484.el9_8                rhel-9-for-x86_64-appstream-rpms   28 k
+ perl-Math-Complex                         noarch  1.59-484.el9_8                rhel-9-for-x86_64-appstream-rpms   52 k
+ perl-NDBM_File                            x86_64  1.15-484.el9_8                rhel-9-for-x86_64-appstream-rpms   27 k
+ perl-POSIX                                x86_64  1.94-484.el9_8                rhel-9-for-x86_64-appstream-rpms  101 k
+ perl-SelectSaver                          noarch  1.02-484.el9_8                rhel-9-for-x86_64-appstream-rpms   17 k
+ perl-Symbol                               noarch  1.08-484.el9_8                rhel-9-for-x86_64-appstream-rpms   19 k
+ perl-base                                 noarch  2.27-484.el9_8                rhel-9-for-x86_64-appstream-rpms   21 k
+ perl-if                                   noarch  0.60.800-484.el9_8            rhel-9-for-x86_64-appstream-rpms   19 k
+ perl-interpreter                          x86_64  4:5.32.1-484.el9_8            rhel-9-for-x86_64-appstream-rpms   76 k
+ perl-libs                                 x86_64  4:5.32.1-484.el9_8            rhel-9-for-x86_64-appstream-rpms  2.2 M
+ perl-locale                               noarch  1.09-484.el9_8                rhel-9-for-x86_64-appstream-rpms   19 k
+ perl-mro                                  x86_64  1.23-484.el9_8                rhel-9-for-x86_64-appstream-rpms   33 k
+ perl-overload                             noarch  1.31-484.el9_8                rhel-9-for-x86_64-appstream-rpms   50 k
+ perl-overloading                          noarch  0.02-484.el9_8                rhel-9-for-x86_64-appstream-rpms   18 k
+ perl-subs                                 noarch  1.03-484.el9_8                rhel-9-for-x86_64-appstream-rpms   17 k
+ perl-vars                                 noarch  1.05-484.el9_8                rhel-9-for-x86_64-appstream-rpms   18 k
+ pipewire                                  x86_64  1.4.11-1.el9_8.2              rhel-9-for-x86_64-appstream-rpms  137 k
+ pipewire-alsa                             x86_64  1.4.11-1.el9_8.2              rhel-9-for-x86_64-appstream-rpms   72 k
+ pipewire-gstreamer                        x86_64  1.4.11-1.el9_8.2              rhel-9-for-x86_64-appstream-rpms   86 k
+ pipewire-jack-audio-connection-kit        x86_64  1.4.11-1.el9_8.2              rhel-9-for-x86_64-appstream-rpms   14 k
+ pipewire-jack-audio-connection-kit-libs   x86_64  1.4.11-1.el9_8.2              rhel-9-for-x86_64-appstream-rpms  158 k
+ pipewire-libs                             x86_64  1.4.11-1.el9_8.2              rhel-9-for-x86_64-appstream-rpms  2.5 M
+ pipewire-pulseaudio                       x86_64  1.4.11-1.el9_8.2              rhel-9-for-x86_64-appstream-rpms  217 k
+ pipewire-utils                            x86_64  1.4.11-1.el9_8.2              rhel-9-for-x86_64-appstream-rpms  632 k
+ pixman                                    x86_64  0.40.0-6.el9_3                rhel-9-for-x86_64-appstream-rpms  271 k
+ podman                                    x86_64  6:5.8.2-7.el9_8               rhel-9-for-x86_64-appstream-rpms   17 M
+ poppler                                   x86_64  21.01.0-24.el9_8.1            rhel-9-for-x86_64-appstream-rpms  1.1 M
+ poppler-cpp                               x86_64  21.01.0-24.el9_8.1            rhel-9-for-x86_64-appstream-rpms   58 k
+ poppler-glib                              x86_64  21.01.0-24.el9_8.1            rhel-9-for-x86_64-appstream-rpms  157 k
+ poppler-utils                             x86_64  21.01.0-24.el9_8.1            rhel-9-for-x86_64-appstream-rpms  243 k
+ python-unversioned-command                noarch  3.9.25-7.el9_8.3              rhel-9-for-x86_64-appstream-rpms   15 k
+ python3                                   x86_64  3.9.25-7.el9_8.3              rhel-9-for-x86_64-baseos-rpms      32 k
+ python3-firewall                          noarch  1.3.4-20.el9_8                rhel-9-for-x86_64-baseos-rpms     400 k
+ python3-idna                              noarch  2.10-8.el9_8                  rhel-9-for-x86_64-baseos-rpms     109 k
+ python3-libs                              x86_64  3.9.25-7.el9_8.3              rhel-9-for-x86_64-baseos-rpms     8.1 M
+ python3-libxml2                           x86_64  2.9.13-14.el9_8.4             rhel-9-for-x86_64-baseos-rpms     232 k
+ python3-lxml                              x86_64  4.6.5-3.el9_8.1               rhel-9-for-x86_64-appstream-rpms  1.2 M
+ python3-perf                              x86_64  5.14.0-687.50.1.el9_8         rhel-9-for-x86_64-appstream-rpms  2.6 M
+ python3-urllib3                           noarch  1.26.5-8.el9_8                rhel-9-for-x86_64-baseos-rpms     225 k
+ qemu-guest-agent                          x86_64  17:10.1.0-17.el9_8.5          rhel-9-for-x86_64-appstream-rpms  504 k
+ rhc                                       x86_64  1:0.2.7-11.el9_8              rhel-9-for-x86_64-appstream-rpms   12 M
+ rsync                                     x86_64  3.2.7-1.el9_8                 rhel-9-for-x86_64-baseos-rpms     460 k
+ rsyslog                                   x86_64  8.2510.0-2.el9_8.2            rhel-9-for-x86_64-appstream-rpms  851 k
+ rsyslog-gnutls                            x86_64  8.2510.0-2.el9_8.2            rhel-9-for-x86_64-appstream-rpms   33 k
+ rsyslog-gssapi                            x86_64  8.2510.0-2.el9_8.2            rhel-9-for-x86_64-appstream-rpms   34 k
+ rsyslog-logrotate                         x86_64  8.2510.0-2.el9_8.2            rhel-9-for-x86_64-appstream-rpms   15 k
+ rsyslog-relp                              x86_64  8.2510.0-2.el9_8.2            rhel-9-for-x86_64-appstream-rpms   34 k
+ samba-client-libs                         x86_64  4.23.5-11.el9_8               rhel-9-for-x86_64-baseos-rpms     5.6 M
+ samba-common                              noarch  4.23.5-11.el9_8               rhel-9-for-x86_64-baseos-rpms     185 k
+ samba-common-libs                         x86_64  4.23.5-11.el9_8               rhel-9-for-x86_64-baseos-rpms     111 k
+ sg3_utils                                 x86_64  1.47-10.el9_8.1               rhel-9-for-x86_64-baseos-rpms     1.0 M
+ sg3_utils-libs                            x86_64  1.47-10.el9_8.1               rhel-9-for-x86_64-baseos-rpms     107 k
+ sqlite-libs                               x86_64  3.34.1-11.el9_8               rhel-9-for-x86_64-baseos-rpms     650 k
+ sssd                                      x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      29 k
+ sssd-ad                                   x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms     221 k
+ sssd-client                               x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms     170 k
+ sssd-common                               x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms     1.6 M
+ sssd-common-pac                           x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      98 k
+ sssd-ipa                                  x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms     291 k
+ sssd-kcm                                  x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms     111 k
+ sssd-krb5                                 x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      75 k
+ sssd-krb5-common                          x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      96 k
+ sssd-ldap                                 x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms     165 k
+ sssd-proxy                                x86_64  2.9.8-4.el9_8.1               rhel-9-for-x86_64-baseos-rpms      74 k
+ sudo                                      x86_64  1.9.17p2-3.el9_8.1            rhel-9-for-x86_64-baseos-rpms     1.3 M
+ tar                                       x86_64  2:1.34-13.el9_8               rhel-9-for-x86_64-baseos-rpms     893 k
+ texlive-lib                               x86_64  9:20200406-26.el9_2           rhel-9-for-x86_64-appstream-rpms  481 k
+ vim-common                                x86_64  2:8.2.2637-26.el9_8.21        rhel-9-for-x86_64-appstream-rpms  7.0 M
+ vim-enhanced                              x86_64  2:8.2.2637-26.el9_8.21        rhel-9-for-x86_64-appstream-rpms  1.8 M
+ vim-filesystem                            noarch  2:8.2.2637-26.el9_8.21        rhel-9-for-x86_64-baseos-rpms      24 k
+ vim-minimal                               x86_64  2:8.2.2637-26.el9_8.21        rhel-9-for-x86_64-baseos-rpms     681 k
+ webkit2gtk3                               x86_64  2.54.0-1.el9_8                rhel-9-for-x86_64-appstream-rpms   30 M
+ webkit2gtk3-jsc                           x86_64  2.54.0-1.el9_8                rhel-9-for-x86_64-appstream-rpms  9.2 M
+ wget                                      x86_64  1.21.1-11.el9_8               rhel-9-for-x86_64-appstream-rpms  791 k
+ xorg-x11-server-Xorg                      x86_64  1.20.11-34.el9_8.3            rhel-9-for-x86_64-appstream-rpms  1.5 M
+ xorg-x11-server-Xwayland                  x86_64  24.1.9-4.el9_8.3              rhel-9-for-x86_64-appstream-rpms  1.0 M
+ xorg-x11-server-common                    x86_64  1.20.11-34.el9_8.3            rhel-9-for-x86_64-appstream-rpms   40 k
+ yelp                                      x86_64  2:40.3-3.el9_8.1              rhel-9-for-x86_64-appstream-rpms  873 k
+ yelp-libs                                 x86_64  2:40.3-3.el9_8.1              rhel-9-for-x86_64-appstream-rpms  120 k
+Installing dependencies:
+ kernel-core                               x86_64  5.14.0-687.50.1.el9_8         rhel-9-for-x86_64-baseos-rpms      17 M
+ kernel-modules                            x86_64  5.14.0-687.50.1.el9_8         rhel-9-for-x86_64-baseos-rpms      40 M
+ kernel-modules-core                       x86_64  5.14.0-687.50.1.el9_8         rhel-9-for-x86_64-baseos-rpms      31 M
+ perl-Module-Load                          noarch  1:0.36-4.el9                  rhel-9-for-x86_64-appstream-rpms   20 k
+
+Transaction Summary
+========================================================================================================================
+Install    5 Packages
+Upgrade  221 Packages
+
+Total download size: 452 M
+Is this ok [y/N]: Downloading Packages:
+(1/226): perl-Module-Load-0.36-4.el9.noarch.rpm 100 kB/s |  20 kB     00:00    
+(2/226): kernel-5.14.0-687.50.1.el9_8.x86_64.rp 3.4 MB/s | 1.0 MB     00:00    
+(3/226): kernel-core-5.14.0-687.50.1.el9_8.x86_  19 MB/s |  17 MB     00:00    
+(4/226): texlive-lib-20200406-26.el9_2.x86_64.r 4.4 MB/s | 481 kB     00:00    
+(5/226): pixman-0.40.0-6.el9_3.x86_64.rpm       3.2 MB/s | 271 kB     00:00    
+(6/226): mpg123-libs-1.32.9-1.el9_5.x86_64.rpm  5.2 MB/s | 354 kB     00:00    
+(7/226): PackageKit-1.2.6-2.el9_8.x86_64.rpm    4.0 MB/s | 652 kB     00:00    
+(8/226): PackageKit-command-not-found-1.2.6-2.e 500 kB/s |  27 kB     00:00    
+(9/226): PackageKit-glib-1.2.6-2.el9_8.x86_64.r 2.7 MB/s | 162 kB     00:00    
+(10/226): PackageKit-gstreamer-plugin-1.2.6-2.e 258 kB/s |  22 kB     00:00    
+(11/226): PackageKit-gtk3-module-1.2.6-2.el9_8. 255 kB/s |  21 kB     00:00    
+(12/226): flatpak-1.12.9-4.el9_8.1.x86_64.rpm    12 MB/s | 1.7 MB     00:00    
+(13/226): flatpak-libs-1.12.9-4.el9_8.1.x86_64. 4.9 MB/s | 511 kB     00:00    
+(14/226): flatpak-selinux-1.12.9-4.el9_8.1.noar 548 kB/s |  27 kB     00:00    
+(15/226): flatpak-session-helper-1.12.9-4.el9_8 826 kB/s |  79 kB     00:00    
+(16/226): libexif-0.6.22-6.el9_8.1.x86_64.rpm   4.3 MB/s | 441 kB     00:00    
+(17/226): libsndfile-1.0.31-9.el9_8.1.x86_64.rp 3.0 MB/s | 211 kB     00:00    
+(18/226): kernel-modules-core-5.14.0-687.50.1.e  13 MB/s |  31 MB     00:02    
+(19/226): poppler-21.01.0-24.el9_8.1.x86_64.rpm 1.9 MB/s | 1.1 MB     00:00    
+(20/226): poppler-glib-21.01.0-24.el9_8.1.x86_6 2.0 MB/s | 157 kB     00:00    
+(21/226): poppler-cpp-21.01.0-24.el9_8.1.x86_64 501 kB/s |  58 kB     00:00    
+(22/226): poppler-utils-21.01.0-24.el9_8.1.x86_ 4.0 MB/s | 243 kB     00:00    
+(23/226): kernel-modules-5.14.0-687.50.1.el9_8.  13 MB/s |  40 MB     00:02    
+(24/226): evince-libs-40.5-4.el9_8.1.x86_64.rpm 1.2 MB/s | 382 kB     00:00    
+(25/226): evince-40.5-4.el9_8.1.x86_64.rpm      5.8 MB/s | 2.2 MB     00:00    
+(26/226): evince-previewer-40.5-4.el9_8.1.x86_6 538 kB/s |  31 kB     00:00    
+(27/226): evince-nautilus-40.5-4.el9_8.1.x86_64 270 kB/s |  22 kB     00:00    
+(28/226): evince-thumbnailer-40.5-4.el9_8.1.x86 434 kB/s |  21 kB     00:00    
+(29/226): giflib-5.2.1-10.el9_8.2.x86_64.rpm    789 kB/s |  53 kB     00:00    
+(30/226): libxslt-1.1.34-14.el9_8.1.x86_64.rpm  2.3 MB/s | 248 kB     00:00    
+(31/226): aardvark-dns-1.17.1-1.el9_8.x86_64.rp 8.0 MB/s | 887 kB     00:00    
+(32/226): xorg-x11-server-common-1.20.11-34.el9 663 kB/s |  40 kB     00:00    
+(33/226): xorg-x11-server-Xorg-1.20.11-34.el9_8  10 MB/s | 1.5 MB     00:00    
+(34/226): xorg-x11-server-Xwayland-24.1.9-4.el9 7.3 MB/s | 1.0 MB     00:00    
+(35/226): cups-filesystem-2.3.3op2-39.el9_8.noa 345 kB/s |  15 kB     00:00    
+(36/226): cups-client-2.3.3op2-39.el9_8.x86_64. 1.2 MB/s |  76 kB     00:00    
+(37/226): cups-2.3.3op2-39.el9_8.x86_64.rpm      12 MB/s | 1.5 MB     00:00    
+(38/226): hplip-common-3.21.2-6.el9_8.5.x86_64. 1.8 MB/s |  73 kB     00:00    
+(39/226): hplip-libs-3.21.2-6.el9_8.5.x86_64.rp 2.8 MB/s | 169 kB     00:00    
+(40/226): qemu-guest-agent-10.1.0-17.el9_8.5.x8 6.3 MB/s | 504 kB     00:00    
+(41/226): cups-ipptool-2.3.3op2-39.el9_8.x86_64  18 MB/s | 3.9 MB     00:00    
+(42/226): libsane-hpaio-3.21.2-6.el9_8.5.x86_64 369 kB/s |  91 kB     00:00    
+(43/226): libtiff-4.4.0-18.el9_8.1.x86_64.rpm   1.1 MB/s | 203 kB     00:00    
+(44/226): yelp-libs-40.3-3.el9_8.1.x86_64.rpm   1.5 MB/s | 120 kB     00:00    
+(45/226): yelp-40.3-3.el9_8.1.x86_64.rpm        5.0 MB/s | 873 kB     00:00    
+(46/226): p11-kit-server-0.26.4-1.el9_8.x86_64. 589 kB/s |  28 kB     00:00    
+(47/226): python-unversioned-command-3.9.25-7.e 210 kB/s |  15 kB     00:00    
+(48/226): libXfont2-2.0.3-12.el9_8.3.x86_64.rpm 1.4 MB/s | 149 kB     00:00    
+(49/226): gstreamer1-plugins-bad-free-libs-1.22 9.8 MB/s | 780 kB     00:00    
+(50/226): gstreamer1-plugins-bad-free-1.22.12-7  14 MB/s | 2.5 MB     00:00    
+(51/226): gstreamer1-plugins-ugly-free-1.22.12- 3.0 MB/s | 286 kB     00:00    
+(52/226): cups-filters-1.28.7-27.el9_8.x86_64.r 9.4 MB/s | 808 kB     00:00    
+(53/226): gstreamer1-plugins-good-gtk-1.22.12-7 775 kB/s |  40 kB     00:00    
+(54/226): gstreamer1-plugins-good-1.22.12-7.el9  14 MB/s | 2.4 MB     00:00    
+(55/226): pipewire-1.4.11-1.el9_8.2.x86_64.rpm  1.1 MB/s | 137 kB     00:00    
+(56/226): pipewire-alsa-1.4.11-1.el9_8.2.x86_64 1.3 MB/s |  72 kB     00:00    
+(57/226): pipewire-gstreamer-1.4.11-1.el9_8.2.x 2.0 MB/s |  86 kB     00:00    
+(58/226): pipewire-jack-audio-connection-kit-1. 248 kB/s |  14 kB     00:00    
+(59/226): pipewire-jack-audio-connection-kit-li 3.0 MB/s | 158 kB     00:00    
+(60/226): pipewire-pulseaudio-1.4.11-1.el9_8.2. 3.5 MB/s | 217 kB     00:00    
+(61/226): cups-filters-libs-1.28.7-27.el9_8.x86 342 kB/s | 140 kB     00:00    
+(62/226): pipewire-libs-1.4.11-1.el9_8.2.x86_64  17 MB/s | 2.5 MB     00:00    
+(63/226): pipewire-utils-1.4.11-1.el9_8.2.x86_6 4.9 MB/s | 632 kB     00:00    
+(64/226): wget-1.21.1-11.el9_8.x86_64.rpm       7.7 MB/s | 791 kB     00:00    
+(65/226): dnsmasq-2.85-18.el9_8.2.x86_64.rpm    3.4 MB/s | 334 kB     00:00    
+(66/226): perl-DBI-1.643-9.el9_8.5.x86_64.rpm   7.1 MB/s | 731 kB     00:00    
+(67/226): python3-lxml-4.6.5-3.el9_8.1.x86_64.r 7.0 MB/s | 1.2 MB     00:00    
+(68/226): rhc-0.2.7-11.el9_8.x86_64.rpm          23 MB/s |  12 MB     00:00    
+(69/226): vim-enhanced-8.2.2637-26.el9_8.21.x86 6.5 MB/s | 1.8 MB     00:00    
+(70/226): perl-AutoLoader-5.74-484.el9_8.noarch 312 kB/s |  26 kB     00:00    
+(71/226): vim-common-8.2.2637-26.el9_8.21.x86_6  13 MB/s | 7.0 MB     00:00    
+(72/226): perl-Class-Struct-0.66-484.el9_8.noar 305 kB/s |  27 kB     00:00    
+(73/226): perl-B-1.80-484.el9_8.x86_64.rpm      1.9 MB/s | 186 kB     00:00    
+(74/226): perl-DynaLoader-1.47-484.el9_8.x86_64 788 kB/s |  31 kB     00:00    
+(75/226): perl-Errno-1.30-484.el9_8.x86_64.rpm  309 kB/s |  20 kB     00:00    
+(76/226): perl-Fcntl-1.13-484.el9_8.x86_64.rpm  403 kB/s |  25 kB     00:00    
+(77/226): perl-File-Basename-2.85-484.el9_8.noa 535 kB/s |  22 kB     00:00    
+(78/226): perl-File-stat-1.09-484.el9_8.noarch. 553 kB/s |  22 kB     00:00    
+(79/226): perl-File-Find-1.37-484.el9_8.noarch. 658 kB/s |  30 kB     00:00    
+(80/226): perl-FileHandle-2.03-484.el9_8.noarch 487 kB/s |  20 kB     00:00    
+(81/226): perl-IO-1.43-484.el9_8.x86_64.rpm     2.2 MB/s |  95 kB     00:00    
+(82/226): perl-Getopt-Std-1.12-484.el9_8.noarch 414 kB/s |  20 kB     00:00    
+(83/226): perl-IPC-Open3-1.21-484.el9_8.noarch. 689 kB/s |  28 kB     00:00    
+(84/226): perl-Math-Complex-1.59-484.el9_8.noar 1.3 MB/s |  52 kB     00:00    
+(85/226): perl-NDBM_File-1.15-484.el9_8.x86_64. 650 kB/s |  27 kB     00:00    
+(86/226): perl-POSIX-1.94-484.el9_8.x86_64.rpm  2.3 MB/s | 101 kB     00:00    
+(87/226): perl-SelectSaver-1.02-484.el9_8.noarc 472 kB/s |  17 kB     00:00    
+(88/226): perl-base-2.27-484.el9_8.noarch.rpm   556 kB/s |  21 kB     00:00    
+(89/226): perl-Symbol-1.08-484.el9_8.noarch.rpm 437 kB/s |  19 kB     00:00    
+(90/226): perl-if-0.60.800-484.el9_8.noarch.rpm 543 kB/s |  19 kB     00:00    
+(91/226): perl-interpreter-5.32.1-484.el9_8.x86 1.6 MB/s |  76 kB     00:00    
+(92/226): perl-locale-1.09-484.el9_8.noarch.rpm 448 kB/s |  19 kB     00:00    
+(93/226): perl-libs-5.32.1-484.el9_8.x86_64.rpm  21 MB/s | 2.2 MB     00:00    
+(94/226): perl-mro-1.23-484.el9_8.x86_64.rpm    497 kB/s |  33 kB     00:00    
+(95/226): perl-overload-1.31-484.el9_8.noarch.r 1.0 MB/s |  50 kB     00:00    
+(96/226): perl-overloading-0.02-484.el9_8.noarc 521 kB/s |  18 kB     00:00    
+(97/226): perl-vars-1.05-484.el9_8.noarch.rpm   373 kB/s |  18 kB     00:00    
+(98/226): perl-subs-1.03-484.el9_8.noarch.rpm    91 kB/s |  17 kB     00:00    
+(99/226): cockpit-storaged-356.3-1.el9_8.noarch 4.7 MB/s | 865 kB     00:00    
+(100/226): cockpit-packagekit-356.3-1.el9_8.noa 4.2 MB/s | 942 kB     00:00    
+(101/226): bind-libs-9.16.23-40.el9_8.9.x86_64. 9.7 MB/s | 1.3 MB     00:00    
+(102/226): bind-license-9.16.23-40.el9_8.9.noar 233 kB/s |  19 kB     00:00    
+(103/226): libsoup-2.72.0-16.el9_8.3.x86_64.rpm 4.9 MB/s | 413 kB     00:00    
+(104/226): bind-utils-9.16.23-40.el9_8.9.x86_64 1.4 MB/s | 213 kB     00:00    
+(105/226): gstreamer1-plugins-base-1.22.12-8.el  11 MB/s | 2.3 MB     00:00    
+(106/226): webkit2gtk3-jsc-2.54.0-1.el9_8.x86_6  16 MB/s | 9.2 MB     00:00    
+(107/226): rsyslog-8.2510.0-2.el9_8.2.x86_64.rp 6.0 MB/s | 851 kB     00:00    
+(108/226): rsyslog-gnutls-8.2510.0-2.el9_8.2.x8 503 kB/s |  33 kB     00:00    
+(109/226): rsyslog-gssapi-8.2510.0-2.el9_8.2.x8 496 kB/s |  34 kB     00:00    
+(110/226): rsyslog-logrotate-8.2510.0-2.el9_8.2 234 kB/s |  15 kB     00:00    
+(111/226): webkit2gtk3-2.54.0-1.el9_8.x86_64.rp  23 MB/s |  30 MB     00:01    
+(112/226): rsyslog-relp-8.2510.0-2.el9_8.2.x86_  84 kB/s |  34 kB     00:00    
+(113/226): containernetworking-plugins-1.9.0-4.  20 MB/s |  13 MB     00:00    
+(114/226): podman-5.8.2-7.el9_8.x86_64.rpm       20 MB/s |  17 MB     00:00    
+(115/226): python3-perf-5.14.0-687.50.1.el9_8.x  11 MB/s | 2.6 MB     00:00    
+(116/226): jq-1.6-19.el9_8.2.x86_64.rpm         3.5 MB/s | 193 kB     00:00    
+(117/226): krb5-libs-1.21.1-10.el9_8.x86_64.rpm 8.6 MB/s | 772 kB     00:00    
+(118/226): libcap-2.48-10.el9_8.1.x86_64.rpm    923 kB/s |  77 kB     00:00    
+(119/226): openssl-fips-provider-3.0.7-11.el9_8 270 kB/s |  14 kB     00:00    
+(120/226): buildah-1.43.3-2.el9_8.x86_64.rpm     24 MB/s |  11 MB     00:00    
+(121/226): openssl-fips-provider-so-3.0.7-11.el 4.3 MB/s | 581 kB     00:00    
+(122/226): python3-urllib3-1.26.5-8.el9_8.noarc 3.3 MB/s | 225 kB     00:00    
+(123/226): libpng-1.6.37-15.el9_8.2.x86_64.rpm  1.7 MB/s | 122 kB     00:00    
+(124/226): cups-libs-2.3.3op2-39.el9_8.x86_64.r 3.3 MB/s | 267 kB     00:00    
+(125/226): libtasn1-4.16.0-10.el9_8.x86_64.rpm  732 kB/s |  80 kB     00:00    
+(126/226): libipa_hbac-2.9.8-4.el9_8.1.x86_64.r 808 kB/s |  38 kB     00:00    
+(127/226): libsolv-0.7.24-6.el9_8.x86_64.rpm    3.3 MB/s | 408 kB     00:00    
+(128/226): libsss_certmap-2.9.8-4.el9_8.1.x86_6 1.3 MB/s |  92 kB     00:00    
+(129/226): libsss_nss_idmap-2.9.8-4.el9_8.1.x86 871 kB/s |  48 kB     00:00    
+(130/226): libsss_idmap-2.9.8-4.el9_8.1.x86_64. 647 kB/s |  43 kB     00:00    
+(131/226): libsss_sudo-2.9.8-4.el9_8.1.x86_64.r 608 kB/s |  37 kB     00:00    
+(132/226): sssd-2.9.8-4.el9_8.1.x86_64.rpm      512 kB/s |  29 kB     00:00    
+(133/226): sssd-ad-2.9.8-4.el9_8.1.x86_64.rpm   3.4 MB/s | 221 kB     00:00    
+(134/226): sssd-client-2.9.8-4.el9_8.1.x86_64.r 2.1 MB/s | 170 kB     00:00    
+(135/226): sssd-common-pac-2.9.8-4.el9_8.1.x86_ 2.1 MB/s |  98 kB     00:00    
+(136/226): sssd-common-2.9.8-4.el9_8.1.x86_64.r  17 MB/s | 1.6 MB     00:00    
+(137/226): sssd-ipa-2.9.8-4.el9_8.1.x86_64.rpm  4.0 MB/s | 291 kB     00:00    
+(138/226): sssd-kcm-2.9.8-4.el9_8.1.x86_64.rpm  1.7 MB/s | 111 kB     00:00    
+(139/226): sssd-krb5-2.9.8-4.el9_8.1.x86_64.rpm 1.2 MB/s |  75 kB     00:00    
+(140/226): sssd-krb5-common-2.9.8-4.el9_8.1.x86 2.1 MB/s |  96 kB     00:00    
+(141/226): sssd-ldap-2.9.8-4.el9_8.1.x86_64.rpm 3.0 MB/s | 165 kB     00:00    
+(142/226): sssd-proxy-2.9.8-4.el9_8.1.x86_64.rp 1.4 MB/s |  74 kB     00:00    
+(143/226): libacl-2.4.0-1.el9_8.x86_64.rpm      774 kB/s |  31 kB     00:00    
+(144/226): acl-2.4.0-1.el9_8.x86_64.rpm         1.5 MB/s |  83 kB     00:00    
+(145/226): glibc-2.34-275.el9_8.x86_64.rpm       11 MB/s | 2.0 MB     00:00    
+(146/226): glibc-common-2.34-275.el9_8.x86_64.r 3.0 MB/s | 314 kB     00:00    
+(147/226): glibc-gconv-extra-2.34-275.el9_8.x86 8.0 MB/s | 1.7 MB     00:00    
+(148/226): glibc-langpack-en-2.34-275.el9_8.x86 2.8 MB/s | 668 kB     00:00    
+(149/226): p11-kit-0.26.4-1.el9_8.x86_64.rpm    5.8 MB/s | 611 kB     00:00    
+(150/226): glibc-all-langpacks-2.34-275.el9_8.x  18 MB/s |  18 MB     00:00    
+(151/226): p11-kit-trust-0.26.4-1.el9_8.x86_64. 1.0 MB/s | 162 kB     00:00    
+(152/226): libgcrypt-1.10.0-13.el9_8.x86_64.rpm 4.7 MB/s | 512 kB     00:00    
+(153/226): gnutls-3.8.10-8.el9_8.x86_64.rpm      10 MB/s | 1.4 MB     00:00    
+(154/226): sg3_utils-libs-1.47-10.el9_8.1.x86_6 1.7 MB/s | 107 kB     00:00    
+(155/226): sg3_utils-1.47-10.el9_8.1.x86_64.rpm 6.4 MB/s | 1.0 MB     00:00    
+(156/226): libarchive-3.5.3-11.el9_8.x86_64.rpm 4.2 MB/s | 393 kB     00:00    
+(157/226): iscsi-initiator-utils-6.2.1.11-1.git 6.7 MB/s | 399 kB     00:00    
+(158/226): iscsi-initiator-utils-iscsiuio-6.2.1 973 kB/s |  87 kB     00:00    
+(159/226): isns-utils-libs-0.101-4.el9_8.1.x86_ 1.7 MB/s | 105 kB     00:00    
+(160/226): python3-3.9.25-7.el9_8.3.x86_64.rpm  561 kB/s |  32 kB     00:00    
+(161/226): python3-idna-2.10-8.el9_8.noarch.rpm 2.1 MB/s | 109 kB     00:00    
+(162/226): dracut-057-120.git20260728.el9_8.x86 5.8 MB/s | 482 kB     00:00    
+(163/226): firefox-140.16.0-1.el9_8.x86_64.rpm   21 MB/s | 115 MB     00:05    
+(164/226): dracut-config-rescue-057-120.git2026  25 kB/s |  19 kB     00:00    
+(165/226): dracut-network-057-120.git20260728.e 1.8 MB/s |  93 kB     00:00    
+(166/226): python3-libs-3.9.25-7.el9_8.3.x86_64 7.8 MB/s | 8.1 MB     00:01    
+(167/226): dracut-squash-057-120.git20260728.el 180 kB/s |  19 kB     00:00    
+(168/226): libnghttp2-1.43.0-6.el9_8.2.x86_64.r 1.3 MB/s |  79 kB     00:00    
+(169/226): kbd-2.4.0-12.el9_8.x86_64.rpm        6.7 MB/s | 423 kB     00:00    
+(170/226): kbd-legacy-2.4.0-12.el9_8.noarch.rpm 7.0 MB/s | 568 kB     00:00    
+(171/226): kbd-misc-2.4.0-12.el9_8.noarch.rpm    17 MB/s | 1.7 MB     00:00    
+(172/226): NetworkManager-adsl-1.54.3-5.el9_8.x 562 kB/s |  36 kB     00:00    
+(173/226): NetworkManager-config-server-1.54.3- 424 kB/s |  21 kB     00:00    
+(174/226): NetworkManager-1.54.3-5.el9_8.x86_64  14 MB/s | 2.4 MB     00:00    
+(175/226): NetworkManager-bluetooth-1.54.3-5.el 476 kB/s |  62 kB     00:00    
+(176/226): NetworkManager-team-1.54.3-5.el9_8.x 945 kB/s |  41 kB     00:00    
+(177/226): NetworkManager-tui-1.54.3-5.el9_8.x8 4.2 MB/s | 251 kB     00:00    
+(178/226): NetworkManager-wifi-1.54.3-5.el9_8.x 1.8 MB/s |  84 kB     00:00    
+(179/226): NetworkManager-wwan-1.54.3-5.el9_8.x 1.4 MB/s |  69 kB     00:00    
+(180/226): NetworkManager-libnm-1.54.3-5.el9_8. 9.9 MB/s | 1.9 MB     00:00    
+(181/226): attr-2.6.0-1.el9_8.x86_64.rpm        1.2 MB/s |  72 kB     00:00    
+(182/226): sqlite-libs-3.34.1-11.el9_8.x86_64.r 6.6 MB/s | 650 kB     00:00    
+(183/226): libxml2-2.9.13-14.el9_8.4.x86_64.rpm  11 MB/s | 755 kB     00:00    
+(184/226): libattr-2.6.0-1.el9_8.x86_64.rpm     300 kB/s |  23 kB     00:00    
+(185/226): python3-libxml2-2.9.13-14.el9_8.4.x8 3.9 MB/s | 232 kB     00:00    
+(186/226): dbus-broker-28-9.el9_8.x86_64.rpm    2.4 MB/s | 176 kB     00:00    
+(187/226): gzip-1.12-2.el9_8.x86_64.rpm         1.7 MB/s | 169 kB     00:00    
+(188/226): tar-1.34-13.el9_8.x86_64.rpm         7.9 MB/s | 893 kB     00:00    
+(189/226): libssh-0.10.4-19.el9_8.x86_64.rpm    4.3 MB/s | 221 kB     00:00    
+(190/226): libssh-config-0.10.4-19.el9_8.noarch 309 kB/s |  14 kB     00:00    
+(191/226): expat-2.5.0-6.el9_8.3.x86_64.rpm     1.9 MB/s | 126 kB     00:00    
+(192/226): pam-1.5.1-28.el9_8.1.x86_64.rpm      7.8 MB/s | 630 kB     00:00    
+(193/226): vim-filesystem-8.2.2637-26.el9_8.21. 429 kB/s |  24 kB     00:00    
+(194/226): glib2-2.68.4-19.el9_8.10.x86_64.rpm   20 MB/s | 2.6 MB     00:00    
+(195/226): vim-minimal-8.2.2637-26.el9_8.21.x86 7.7 MB/s | 681 kB     00:00    
+(196/226): coreutils-8.32-41.el9_8.1.x86_64.rpm 9.2 MB/s | 1.2 MB     00:00    
+(197/226): coreutils-common-8.32-41.el9_8.1.x86  16 MB/s | 2.0 MB     00:00    
+(198/226): libkcapi-1.4.0-3.el9_8.x86_64.rpm    1.4 MB/s |  51 kB     00:00    
+(199/226): openssl-3.5.8-1.el9_8.x86_64.rpm      13 MB/s | 1.5 MB     00:00    
+(200/226): libkcapi-hmaccalc-1.4.0-3.el9_8.x86_ 716 kB/s |  31 kB     00:00    
+(201/226): cockpit-356.3-1.el9_8.x86_64.rpm     813 kB/s |  37 kB     00:00    
+(202/226): rsync-3.2.7-1.el9_8.x86_64.rpm       5.9 MB/s | 460 kB     00:00    
+(203/226): openssl-libs-3.5.8-1.el9_8.x86_64.rp  12 MB/s | 2.3 MB     00:00    
+(204/226): cockpit-bridge-356.3-1.el9_8.noarch. 7.2 MB/s | 642 kB     00:00    
+(205/226): cockpit-ws-selinux-356.3-1.el9_8.x86 563 kB/s |  49 kB     00:00    
+(206/226): cockpit-ws-356.3-1.el9_8.x86_64.rpm  7.2 MB/s | 1.1 MB     00:00    
+(207/226): cockpit-system-356.3-1.el9_8.noarch.  15 MB/s | 5.1 MB     00:00    
+(208/226): firewalld-filesystem-1.3.4-20.el9_8.  97 kB/s |  15 kB     00:00    
+(209/226): firewalld-1.3.4-20.el9_8.noarch.rpm  2.5 MB/s | 542 kB     00:00    
+(210/226): libsmbclient-4.23.5-11.el9_8.x86_64. 1.9 MB/s |  81 kB     00:00    
+(211/226): libwbclient-4.23.5-11.el9_8.x86_64.r 1.1 MB/s |  50 kB     00:00    
+(212/226): python3-firewall-1.3.4-20.el9_8.noar 5.5 MB/s | 400 kB     00:00    
+(213/226): libldb-4.23.5-11.el9_8.x86_64.rpm    1.4 MB/s | 193 kB     00:00    
+(214/226): samba-common-libs-4.23.5-11.el9_8.x8 1.4 MB/s | 111 kB     00:00    
+(215/226): samba-common-4.23.5-11.el9_8.noarch. 1.9 MB/s | 185 kB     00:00    
+(216/226): libevent-2.1.13-1.el9_8.x86_64.rpm   4.3 MB/s | 270 kB     00:00    
+(217/226): samba-client-libs-4.23.5-11.el9_8.x8  23 MB/s | 5.6 MB     00:00    
+(218/226): curl-7.76.1-40.el9_8.7.x86_64.rpm    4.8 MB/s | 300 kB     00:00    
+(219/226): openssh-9.9p1-11.el9_8.x86_64.rpm    5.5 MB/s | 433 kB     00:00    
+(220/226): openssh-clients-9.9p1-11.el9_8.x86_6 8.7 MB/s | 781 kB     00:00    
+(221/226): libcurl-7.76.1-40.el9_8.7.x86_64.rpm 1.4 MB/s | 290 kB     00:00    
+(222/226): openssh-server-9.9p1-11.el9_8.x86_64 9.5 MB/s | 554 kB     00:00    
+(223/226): sudo-1.9.17p2-3.el9_8.1.x86_64.rpm    13 MB/s | 1.3 MB     00:00    
+(224/226): kernel-tools-libs-5.14.0-687.50.1.el  12 MB/s | 1.0 MB     00:00    
+(225/226): kernel-tools-5.14.0-687.50.1.el9_8.x 5.9 MB/s | 1.3 MB     00:00    
+(226/226): microcode_ctl-20260210-1.20260812.1.  16 MB/s |  15 MB     00:00    
+--------------------------------------------------------------------------------
+Total                                            31 MB/s | 452 MB     00:14     
+Red Hat Enterprise Linux 9 for x86_64 - AppStre 3.5 MB/s | 3.6 kB     00:00    
+Importing GPG key 0xFD431D51:
+ Userid     : "Red Hat, Inc. (release key 2) <security@redhat.com>"
+ Fingerprint: 567E 347A D004 4ADE 55BA 8A5F 199E 2F91 FD43 1D51
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+Is this ok [y/N]: Key imported successfully
+Importing GPG key 0x5A6340B3:
+ Userid     : "Red Hat, Inc. (auxiliary key 3) <security@redhat.com>"
+ Fingerprint: 7E46 2425 8C40 6535 D56D 6F13 5054 E4A4 5A63 40B3
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+Is this ok [y/N]: Key imported successfully
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Running scriptlet: firewalld-1.3.4-20.el9_8.noarch                        1/1 
+  Preparing        :                                                        1/1 
+  Upgrading        : glibc-all-langpacks-2.34-275.el9_8.x86_64            1/447 
+  Upgrading        : glibc-common-2.34-275.el9_8.x86_64                   2/447 
+  Upgrading        : glibc-gconv-extra-2.34-275.el9_8.x86_64              3/447 
+  Running scriptlet: glibc-gconv-extra-2.34-275.el9_8.x86_64              3/447 
+  Upgrading        : glibc-langpack-en-2.34-275.el9_8.x86_64              4/447 
+  Running scriptlet: glibc-2.34-275.el9_8.x86_64                          5/447 
+  Upgrading        : glibc-2.34-275.el9_8.x86_64                          5/447 
+  Running scriptlet: glibc-2.34-275.el9_8.x86_64                          5/447 
+  Upgrading        : libxml2-2.9.13-14.el9_8.4.x86_64                     6/447 
+  Upgrading        : libldb-4.23.5-11.el9_8.x86_64                        7/447 
+  Upgrading        : libacl-2.4.0-1.el9_8.x86_64                          8/447 
+  Upgrading        : sqlite-libs-3.34.1-11.el9_8.x86_64                   9/447 
+  Upgrading        : libsss_idmap-2.9.8-4.el9_8.1.x86_64                 10/447 
+  Upgrading        : libpng-2:1.6.37-15.el9_8.2.x86_64                   11/447 
+  Upgrading        : libtasn1-4.16.0-10.el9_8.x86_64                     12/447 
+  Upgrading        : p11-kit-0.26.4-1.el9_8.x86_64                       13/447 
+  Upgrading        : libxslt-1.1.34-14.el9_8.1.x86_64                    14/447 
+  Upgrading        : pixman-0.40.0-6.el9_3.x86_64                        15/447 
+  Upgrading        : libsndfile-1.0.31-9.el9_8.1.x86_64                  16/447 
+  Upgrading        : libtiff-4.4.0-18.el9_8.1.x86_64                     17/447 
+  Upgrading        : poppler-21.01.0-24.el9_8.1.x86_64                   18/447 
+  Upgrading        : libcap-2.48-10.el9_8.1.x86_64                       19/447 
+  Upgrading        : expat-2.5.0-6.el9_8.3.x86_64                        20/447 
+  Running scriptlet: samba-common-4.23.5-11.el9_8.noarch                 21/447 
+  Upgrading        : samba-common-4.23.5-11.el9_8.noarch                 21/447 
+  Running scriptlet: samba-common-4.23.5-11.el9_8.noarch                 21/447 
+  Upgrading        : xorg-x11-server-common-1.20.11-34.el9_8.3.x86_64    22/447 
+  Upgrading        : p11-kit-trust-0.26.4-1.el9_8.x86_64                 23/447 
+  Running scriptlet: p11-kit-trust-0.26.4-1.el9_8.x86_64                 23/447 
+  Upgrading        : gnutls-3.8.10-8.el9_8.x86_64                        24/447 
+  Upgrading        : glib2-2.68.4-19.el9_8.10.x86_64                     25/447 
+  Upgrading        : gstreamer1-plugins-base-1.22.12-8.el9_8.2.x86_64    26/447 
+  Upgrading        : PackageKit-glib-1.2.6-2.el9_8.x86_64                27/447 
+  Upgrading        : webkit2gtk3-jsc-2.54.0-1.el9_8.x86_64               28/447 
+  Upgrading        : NetworkManager-libnm-1:1.54.3-5.el9_8.x86_64        29/447 
+  Upgrading        : libXfont2-2.0.3-12.el9_8.3.x86_64                   30/447 
+  Upgrading        : libattr-2.6.0-1.el9_8.x86_64                        31/447 
+  Upgrading        : cups-filesystem-1:2.3.3op2-39.el9_8.noarch          32/447 
+  Upgrading        : gstreamer1-plugins-bad-free-libs-1.22.12-7.el9_8    33/447 
+  Upgrading        : flatpak-session-helper-1.12.9-4.el9_8.1.x86_64      34/447 
+  Upgrading        : poppler-glib-21.01.0-24.el9_8.1.x86_64              35/447 
+  Upgrading        : poppler-cpp-21.01.0-24.el9_8.1.x86_64               36/447 
+  Upgrading        : poppler-utils-21.01.0-24.el9_8.1.x86_64             37/447 
+  Upgrading        : p11-kit-server-0.26.4-1.el9_8.x86_64                38/447 
+  Upgrading        : acl-2.4.0-1.el9_8.x86_64                            39/447 
+  Upgrading        : texlive-lib-9:20200406-26.el9_2.x86_64              40/447 
+  Upgrading        : mpg123-libs-1.32.9-1.el9_5.x86_64                   41/447 
+  Upgrading        : gstreamer1-plugins-good-1.22.12-7.el9_8.8.x86_64    42/447 
+  Upgrading        : perl-libs-4:5.32.1-484.el9_8.x86_64                 43/447 
+  Upgrading        : perl-NDBM_File-1.15-484.el9_8.x86_64                44/447 
+  Upgrading        : perl-Fcntl-1.13-484.el9_8.x86_64                    45/447 
+  Upgrading        : perl-Symbol-1.08-484.el9_8.noarch                   46/447 
+  Upgrading        : perl-POSIX-1.94-484.el9_8.x86_64                    47/447 
+  Upgrading        : perl-Errno-1.30-484.el9_8.x86_64                    48/447 
+  Upgrading        : perl-File-Basename-2.85-484.el9_8.noarch            49/447 
+  Upgrading        : perl-overloading-0.02-484.el9_8.noarch              50/447 
+  Upgrading        : perl-SelectSaver-1.02-484.el9_8.noarch              51/447 
+  Installing       : perl-Module-Load-1:0.36-4.el9.noarch                52/447 
+  Upgrading        : perl-Class-Struct-0.66-484.el9_8.noarch             53/447 
+  Upgrading        : perl-DynaLoader-1.47-484.el9_8.x86_64               54/447 
+  Upgrading        : perl-base-2.27-484.el9_8.noarch                     55/447 
+  Upgrading        : perl-interpreter-4:5.32.1-484.el9_8.x86_64          56/447 
+  Upgrading        : perl-mro-1.23-484.el9_8.x86_64                      57/447 
+  Upgrading        : perl-overload-1.31-484.el9_8.noarch                 58/447 
+  Upgrading        : perl-File-stat-1.09-484.el9_8.noarch                59/447 
+  Upgrading        : perl-IO-1.43-484.el9_8.x86_64                       60/447 
+  Upgrading        : perl-FileHandle-2.03-484.el9_8.noarch               61/447 
+  Upgrading        : perl-IPC-Open3-1.21-484.el9_8.noarch                62/447 
+  Upgrading        : perl-vars-1.05-484.el9_8.noarch                     63/447 
+  Upgrading        : containernetworking-plugins-1:1.9.0-4.el9_8.x86_    64/447 
+  Upgrading        : jq-1.6-19.el9_8.2.x86_64                            65/447 
+  Upgrading        : libipa_hbac-2.9.8-4.el9_8.1.x86_64                  66/447 
+  Upgrading        : libsss_nss_idmap-2.9.8-4.el9_8.1.x86_64             67/447 
+  Upgrading        : libsss_sudo-2.9.8-4.el9_8.1.x86_64                  68/447 
+  Upgrading        : libgcrypt-1.10.0-13.el9_8.x86_64                    69/447 
+  Upgrading        : sg3_utils-libs-1.47-10.el9_8.1.x86_64               70/447 
+  Upgrading        : isns-utils-libs-0.101-4.el9_8.1.x86_64              71/447 
+  Upgrading        : libnghttp2-1.43.0-6.el9_8.2.x86_64                  72/447 
+  Upgrading        : libkcapi-1.4.0-3.el9_8.x86_64                       73/447 
+  Upgrading        : libkcapi-hmaccalc-1.4.0-3.el9_8.x86_64              74/447 
+  Upgrading        : kernel-tools-libs-5.14.0-687.50.1.el9_8.x86_64      75/447 
+  Running scriptlet: kernel-tools-libs-5.14.0-687.50.1.el9_8.x86_64      75/447 
+  Upgrading        : firewalld-filesystem-1.3.4-20.el9_8.noarch          76/447 
+  Running scriptlet: cockpit-ws-selinux-356.3-1.el9_8.x86_64             77/447 
+  Upgrading        : cockpit-ws-selinux-356.3-1.el9_8.x86_64             77/447 
+  Running scriptlet: cockpit-ws-selinux-356.3-1.el9_8.x86_64             77/447 
+  Upgrading        : coreutils-common-8.32-41.el9_8.1.x86_64             78/447 
+  Upgrading        : openssl-libs-1:3.5.8-1.el9_8.x86_64                 79/447 
+  Upgrading        : coreutils-8.32-41.el9_8.1.x86_64                    80/447 
+  Upgrading        : openssl-fips-provider-so-3.0.7-11.el9_8.x86_64      81/447 
+  Upgrading        : openssl-fips-provider-3.0.7-11.el9_8.x86_64         82/447 
+  Upgrading        : krb5-libs-1.21.1-10.el9_8.x86_64                    83/447 
+  Upgrading        : cups-libs-1:2.3.3op2-39.el9_8.x86_64                84/447 
+  Upgrading        : pipewire-1.4.11-1.el9_8.2.x86_64                    85/447 
+  Running scriptlet: pipewire-1.4.11-1.el9_8.2.x86_64                    85/447 
+  Upgrading        : pipewire-libs-1.4.11-1.el9_8.2.x86_64               86/447 
+  Upgrading        : libsss_certmap-2.9.8-4.el9_8.1.x86_64               87/447 
+  Upgrading        : libsoup-2.72.0-16.el9_8.3.x86_64                    88/447 
+  Upgrading        : libarchive-3.5.3-11.el9_8.x86_64                    89/447 
+  Upgrading        : evince-libs-40.5-4.el9_8.1.x86_64                   90/447 
+  Upgrading        : python3-libs-3.9.25-7.el9_8.3.x86_64                91/447 
+  Upgrading        : python3-3.9.25-7.el9_8.3.x86_64                     92/447 
+  Upgrading        : python-unversioned-command-3.9.25-7.el9_8.3.noar    93/447 
+  Upgrading        : cockpit-bridge-356.3-1.el9_8.noarch                 94/447 
+  Upgrading        : PackageKit-1.2.6-2.el9_8.x86_64                     95/447 
+  Running scriptlet: PackageKit-1.2.6-2.el9_8.x86_64                     95/447 
+  Upgrading        : openssl-1:3.5.8-1.el9_8.x86_64                      96/447 
+  Upgrading        : pam-1.5.1-28.el9_8.1.x86_64                         97/447 
+  Running scriptlet: pam-1.5.1-28.el9_8.1.x86_64                         97/447 
+  Running scriptlet: libwbclient-4.23.5-11.el9_8.x86_64                  98/447 
+  Upgrading        : libwbclient-4.23.5-11.el9_8.x86_64                  98/447 
+  Upgrading        : samba-common-libs-4.23.5-11.el9_8.x86_64            99/447 
+  Upgrading        : samba-client-libs-4.23.5-11.el9_8.x86_64           100/447 
+  Running scriptlet: openssh-9.9p1-11.el9_8.x86_64                      101/447 
+  Upgrading        : openssh-9.9p1-11.el9_8.x86_64                      101/447 
+  Upgrading        : libsmbclient-4.23.5-11.el9_8.x86_64                102/447 
+  Upgrading        : sssd-client-2.9.8-4.el9_8.1.x86_64                 103/447 
+  Running scriptlet: sssd-client-2.9.8-4.el9_8.1.x86_64                 103/447 
+  Running scriptlet: sssd-common-2.9.8-4.el9_8.1.x86_64                 104/447 
+  Upgrading        : sssd-common-2.9.8-4.el9_8.1.x86_64                 104/447 
+  Running scriptlet: sssd-common-2.9.8-4.el9_8.1.x86_64                 104/447 
+  Upgrading        : sssd-krb5-common-2.9.8-4.el9_8.1.x86_64            105/447 
+  Upgrading        : sssd-common-pac-2.9.8-4.el9_8.1.x86_64             106/447 
+  Upgrading        : sssd-krb5-2.9.8-4.el9_8.1.x86_64                   107/447 
+  Upgrading        : sssd-ldap-2.9.8-4.el9_8.1.x86_64                   108/447 
+  Upgrading        : sssd-proxy-2.9.8-4.el9_8.1.x86_64                  109/447 
+  Upgrading        : cockpit-ws-356.3-1.el9_8.x86_64                    110/447 
+  Running scriptlet: cockpit-ws-356.3-1.el9_8.x86_64                    110/447 
+  Upgrading        : sudo-1.9.17p2-3.el9_8.1.x86_64                     111/447 
+  Running scriptlet: sudo-1.9.17p2-3.el9_8.1.x86_64                     111/447 
+  Upgrading        : cockpit-packagekit-356.3-1.el9_8.noarch            112/447 
+  Upgrading        : python3-idna-2.10-8.el9_8.noarch                   113/447 
+  Upgrading        : python3-firewall-1.3.4-20.el9_8.noarch             114/447 
+  Upgrading        : evince-previewer-40.5-4.el9_8.1.x86_64             115/447 
+  Upgrading        : evince-thumbnailer-40.5-4.el9_8.1.x86_64           116/447 
+  Upgrading        : pipewire-jack-audio-connection-kit-1.4.11-1.el9_   117/447 
+  Upgrading        : pipewire-jack-audio-connection-kit-libs-1.4.11-1   118/447 
+  Upgrading        : cups-client-1:2.3.3op2-39.el9_8.x86_64             119/447 
+  Running scriptlet: cups-client-1:2.3.3op2-39.el9_8.x86_64             119/447 
+  Upgrading        : cups-ipptool-1:2.3.3op2-39.el9_8.x86_64            120/447 
+  Upgrading        : cups-filters-libs-1.28.7-27.el9_8.x86_64           121/447 
+  Upgrading        : cups-filters-1.28.7-27.el9_8.x86_64                122/447 
+  Running scriptlet: cups-filters-1.28.7-27.el9_8.x86_64                122/447 
+  Upgrading        : gzip-1.12-2.el9_8.x86_64                           123/447 
+  Upgrading        : dracut-057-120.git20260728.el9_8.x86_64            124/447 
+  Installing       : kernel-modules-core-5.14.0-687.50.1.el9_8.x86_64   125/447 
+  Installing       : kernel-core-5.14.0-687.50.1.el9_8.x86_64           126/447 
+  Running scriptlet: kernel-core-5.14.0-687.50.1.el9_8.x86_64           126/447 
+  Installing       : kernel-modules-5.14.0-687.50.1.el9_8.x86_64        127/447 
+  Running scriptlet: kernel-modules-5.14.0-687.50.1.el9_8.x86_64        127/447 
+  Upgrading        : gstreamer1-plugins-bad-free-1.22.12-7.el9_8.4.x8   128/447 
+  Upgrading        : webkit2gtk3-2.54.0-1.el9_8.x86_64                  129/447 
+  Upgrading        : yelp-libs-2:40.3-3.el9_8.1.x86_64                  130/447 
+  Upgrading        : iscsi-initiator-utils-iscsiuio-6.2.1.11-1.git4b3   131/447 
+  Running scriptlet: iscsi-initiator-utils-iscsiuio-6.2.1.11-1.git4b3   131/447 
+  Upgrading        : iscsi-initiator-utils-6.2.1.11-1.git4b3e853.el9_   132/447 
+  Running scriptlet: iscsi-initiator-utils-6.2.1.11-1.git4b3e853.el9_   132/447 
+  Upgrading        : vim-filesystem-2:8.2.2637-26.el9_8.21.noarch       133/447 
+  Upgrading        : vim-common-2:8.2.2637-26.el9_8.21.x86_64           134/447 
+  Upgrading        : libssh-config-0.10.4-19.el9_8.noarch               135/447 
+  Upgrading        : libssh-0.10.4-19.el9_8.x86_64                      136/447 
+  Upgrading        : libcurl-7.76.1-40.el9_8.7.x86_64                   137/447 
+  Running scriptlet: NetworkManager-1:1.54.3-5.el9_8.x86_64             138/447 
+  Upgrading        : NetworkManager-1:1.54.3-5.el9_8.x86_64             138/447 
+  Running scriptlet: NetworkManager-1:1.54.3-5.el9_8.x86_64             138/447 
+  Upgrading        : rsyslog-logrotate-8.2510.0-2.el9_8.2.x86_64        139/447 
+  Upgrading        : rsyslog-8.2510.0-2.el9_8.2.x86_64                  140/447 
+  Running scriptlet: rsyslog-8.2510.0-2.el9_8.2.x86_64                  140/447 
+  Upgrading        : NetworkManager-team-1:1.54.3-5.el9_8.x86_64        141/447 
+  Upgrading        : cockpit-system-356.3-1.el9_8.noarch                142/447 
+  Upgrading        : cockpit-storaged-356.3-1.el9_8.noarch              143/447 
+  Running scriptlet: cockpit-storaged-356.3-1.el9_8.noarch              143/447 
+  Upgrading        : NetworkManager-wwan-1:1.54.3-5.el9_8.x86_64        144/447 
+  Upgrading        : kbd-misc-2.4.0-12.el9_8.noarch                     145/447 
+  Upgrading        : kbd-legacy-2.4.0-12.el9_8.noarch                   146/447 
+  Upgrading        : bind-license-32:9.16.23-40.el9_8.9.noarch          147/447 
+  Upgrading        : bind-libs-32:9.16.23-40.el9_8.9.x86_64             148/447 
+  Upgrading        : bind-utils-32:9.16.23-40.el9_8.9.x86_64            149/447 
+  Upgrading        : sssd-ad-2.9.8-4.el9_8.1.x86_64                     150/447 
+  Upgrading        : sssd-ipa-2.9.8-4.el9_8.1.x86_64                    151/447 
+  Upgrading        : hplip-common-3.21.2-6.el9_8.5.x86_64               152/447 
+  Upgrading        : hplip-libs-3.21.2-6.el9_8.5.x86_64                 153/447 
+  Upgrading        : flatpak-selinux-1.12.9-4.el9_8.1.noarch            154/447 
+  Running scriptlet: flatpak-selinux-1.12.9-4.el9_8.1.noarch            154/447 
+  Running scriptlet: flatpak-1.12.9-4.el9_8.1.x86_64                    155/447 
+  Upgrading        : flatpak-1.12.9-4.el9_8.1.x86_64                    155/447 
+  Upgrading        : libsane-hpaio-3.21.2-6.el9_8.5.x86_64              156/447 
+  Upgrading        : sssd-2.9.8-4.el9_8.1.x86_64                        157/447 
+  Upgrading        : kbd-2.4.0-12.el9_8.x86_64                          158/447 
+  Upgrading        : NetworkManager-bluetooth-1:1.54.3-5.el9_8.x86_64   159/447 
+  Upgrading        : cockpit-356.3-1.el9_8.x86_64                       160/447 
+  Upgrading        : rsyslog-gnutls-8.2510.0-2.el9_8.2.x86_64           161/447 
+  Upgrading        : rsyslog-gssapi-8.2510.0-2.el9_8.2.x86_64           162/447 
+  Upgrading        : rsyslog-relp-8.2510.0-2.el9_8.2.x86_64             163/447 
+  Upgrading        : dracut-network-057-120.git20260728.el9_8.x86_64    164/447 
+  Upgrading        : NetworkManager-adsl-1:1.54.3-5.el9_8.x86_64        165/447 
+  Upgrading        : NetworkManager-tui-1:1.54.3-5.el9_8.x86_64         166/447 
+  Upgrading        : NetworkManager-wifi-1:1.54.3-5.el9_8.x86_64        167/447 
+  Upgrading        : curl-7.76.1-40.el9_8.7.x86_64                      168/447 
+  Upgrading        : vim-enhanced-2:8.2.2637-26.el9_8.21.x86_64         169/447 
+  Upgrading        : yelp-2:40.3-3.el9_8.1.x86_64                       170/447 
+  Installing       : kernel-5.14.0-687.50.1.el9_8.x86_64                171/447 
+  Upgrading        : dracut-config-rescue-057-120.git20260728.el9_8.x   172/447 
+  Upgrading        : dracut-squash-057-120.git20260728.el9_8.x86_64     173/447 
+  Upgrading        : cups-1:2.3.3op2-39.el9_8.x86_64                    174/447 
+  Running scriptlet: cups-1:2.3.3op2-39.el9_8.x86_64                    174/447 
+  Upgrading        : evince-40.5-4.el9_8.1.x86_64                       175/447 
+  Upgrading        : firewalld-1.3.4-20.el9_8.noarch                    176/447 
+  Running scriptlet: firewalld-1.3.4-20.el9_8.noarch                    176/447 
+  Upgrading        : python3-urllib3-1.26.5-8.el9_8.noarch              177/447 
+  Upgrading        : sssd-kcm-2.9.8-4.el9_8.1.x86_64                    178/447 
+  Running scriptlet: sssd-kcm-2.9.8-4.el9_8.1.x86_64                    178/447 
+  Upgrading        : openssh-clients-9.9p1-11.el9_8.x86_64              179/447 
+  Running scriptlet: openssh-clients-9.9p1-11.el9_8.x86_64              179/447 
+  Running scriptlet: openssh-server-9.9p1-11.el9_8.x86_64               180/447 
+  Upgrading        : openssh-server-9.9p1-11.el9_8.x86_64               180/447 
+  Running scriptlet: openssh-server-9.9p1-11.el9_8.x86_64               180/447 
+  Upgrading        : PackageKit-command-not-found-1.2.6-2.el9_8.x86_6   181/447 
+  Upgrading        : python3-lxml-4.6.5-3.el9_8.1.x86_64                182/447 
+  Upgrading        : python3-perf-5.14.0-687.50.1.el9_8.x86_64          183/447 
+  Upgrading        : python3-libxml2-2.9.13-14.el9_8.4.x86_64           184/447 
+  Upgrading        : kernel-tools-5.14.0-687.50.1.el9_8.x86_64          185/447 
+  Running scriptlet: kernel-tools-5.14.0-687.50.1.el9_8.x86_64          185/447 
+  Upgrading        : evince-nautilus-40.5-4.el9_8.1.x86_64              186/447 
+  Upgrading        : flatpak-libs-1.12.9-4.el9_8.1.x86_64               187/447 
+  Upgrading        : pipewire-alsa-1.4.11-1.el9_8.2.x86_64              188/447 
+  Upgrading        : pipewire-gstreamer-1.4.11-1.el9_8.2.x86_64         189/447 
+  Upgrading        : pipewire-pulseaudio-1.4.11-1.el9_8.2.x86_64        190/447 
+  Running scriptlet: pipewire-pulseaudio-1.4.11-1.el9_8.2.x86_64        190/447 
+  Upgrading        : pipewire-utils-1.4.11-1.el9_8.2.x86_64             191/447 
+  Upgrading        : firefox-140.16.0-1.el9_8.x86_64                    192/447 
+  Running scriptlet: firefox-140.16.0-1.el9_8.x86_64                    192/447 
+  Upgrading        : microcode_ctl-4:20260210-1.20260812.1.el9_8.noar   193/447 
+  Running scriptlet: microcode_ctl-4:20260210-1.20260812.1.el9_8.noar   193/447 
+  Upgrading        : xorg-x11-server-Xorg-1.20.11-34.el9_8.3.x86_64     194/447 
+  Upgrading        : xorg-x11-server-Xwayland-24.1.9-4.el9_8.3.x86_64   195/447 
+  Upgrading        : libsolv-0.7.24-6.el9_8.x86_64                      196/447 
+  Upgrading        : rsync-3.2.7-1.el9_8.x86_64                         197/447 
+  Upgrading        : libevent-2.1.13-1.el9_8.x86_64                     198/447 
+  Upgrading        : sg3_utils-1.47-10.el9_8.1.x86_64                   199/447 
+  Upgrading        : podman-6:5.8.2-7.el9_8.x86_64                      200/447 
+  Upgrading        : perl-DBI-1.643-9.el9_8.5.x86_64                    201/447 
+  Upgrading        : perl-Math-Complex-1.59-484.el9_8.noarch            202/447 
+  Upgrading        : perl-B-1.80-484.el9_8.x86_64                       203/447 
+  Upgrading        : perl-File-Find-1.37-484.el9_8.noarch               204/447 
+  Upgrading        : perl-locale-1.09-484.el9_8.noarch                  205/447 
+  Upgrading        : perl-AutoLoader-5.74-484.el9_8.noarch              206/447 
+  Upgrading        : perl-Getopt-Std-1.12-484.el9_8.noarch              207/447 
+  Upgrading        : perl-if-0.60.800-484.el9_8.noarch                  208/447 
+  Upgrading        : perl-subs-1.03-484.el9_8.noarch                    209/447 
+  Upgrading        : gstreamer1-plugins-good-gtk-1.22.12-7.el9_8.8.x8   210/447 
+  Upgrading        : attr-2.6.0-1.el9_8.x86_64                          211/447 
+  Upgrading        : PackageKit-gstreamer-plugin-1.2.6-2.el9_8.x86_64   212/447 
+  Upgrading        : PackageKit-gtk3-module-1.2.6-2.el9_8.x86_64        213/447 
+  Upgrading        : gstreamer1-plugins-ugly-free-1.22.12-6.el9_8.2.x   214/447 
+  Upgrading        : qemu-guest-agent-17:10.1.0-17.el9_8.5.x86_64       215/447 
+  Running scriptlet: qemu-guest-agent-17:10.1.0-17.el9_8.5.x86_64       215/447 
+  Upgrading        : wget-1.21.1-11.el9_8.x86_64                        216/447 
+  Upgrading        : dbus-broker-28-9.el9_8.x86_64                      217/447 
+  Running scriptlet: dbus-broker-28-9.el9_8.x86_64                      217/447 
+  Upgrading        : buildah-2:1.43.3-2.el9_8.x86_64                    218/447 
+  Upgrading        : tar-2:1.34-13.el9_8.x86_64                         219/447 
+  Upgrading        : vim-minimal-2:8.2.2637-26.el9_8.21.x86_64          220/447 
+  Upgrading        : libexif-0.6.22-6.el9_8.1.x86_64                    221/447 
+  Upgrading        : giflib-5.2.1-10.el9_8.2.x86_64                     222/447 
+  Upgrading        : aardvark-dns-2:1.17.1-1.el9_8.x86_64               223/447 
+  Upgrading        : rhc-1:0.2.7-11.el9_8.x86_64                        224/447 
+  Running scriptlet: rhc-1:0.2.7-11.el9_8.x86_64                        224/447 
+  Running scriptlet: dnsmasq-2.85-18.el9_8.2.x86_64                     225/447 
+  Upgrading        : dnsmasq-2.85-18.el9_8.2.x86_64                     225/447 
+  Running scriptlet: dnsmasq-2.85-18.el9_8.2.x86_64                     225/447 
+  Upgrading        : NetworkManager-config-server-1:1.54.3-5.el9_8.no   226/447 
+  Cleanup          : python3-libxml2-2.9.13-14.el9_7.x86_64             227/447 
+  Cleanup          : NetworkManager-tui-1:1.54.3-2.el9.x86_64           228/447 
+  Cleanup          : python3-lxml-4.6.5-3.el9.x86_64                    229/447 
+  Running scriptlet: firefox-140.10.0-1.el9_8.x86_64                    230/447 
+  Cleanup          : firefox-140.10.0-1.el9_8.x86_64                    230/447 
+  Running scriptlet: firefox-140.10.0-1.el9_8.x86_64                    230/447 
+  Cleanup          : flatpak-1.12.9-4.el9_6.x86_64                      231/447 
+  Cleanup          : perl-DBI-1.643-9.el9.x86_64                        232/447 
+  Running scriptlet: cups-1:2.3.3op2-38.el9_8.x86_64                    233/447 
+  Cleanup          : cups-1:2.3.3op2-38.el9_8.x86_64                    233/447 
+  Running scriptlet: cups-1:2.3.3op2-38.el9_8.x86_64                    233/447 
+  Running scriptlet: cups-filters-1.28.7-26.el9.x86_64                  234/447 
+  Cleanup          : cups-filters-1.28.7-26.el9.x86_64                  234/447 
+  Running scriptlet: cups-filters-1.28.7-26.el9.x86_64                  234/447 
+  Cleanup          : python3-perf-5.14.0-687.5.3.el9_8.x86_64           235/447 
+  Running scriptlet: openssh-server-9.9p1-7.el9_8.x86_64                236/447 
+  Cleanup          : openssh-server-9.9p1-7.el9_8.x86_64                236/447 
+  Running scriptlet: openssh-server-9.9p1-7.el9_8.x86_64                236/447 
+  Cleanup          : xorg-x11-server-Xwayland-24.1.9-2.el9.x86_64       237/447 
+  Cleanup          : xorg-x11-server-Xorg-1.20.11-33.el9.x86_64         238/447 
+  Running scriptlet: qemu-guest-agent-17:10.1.0-17.el9_8.x86_64         239/447 
+  Cleanup          : qemu-guest-agent-17:10.1.0-17.el9_8.x86_64         239/447 
+  Running scriptlet: qemu-guest-agent-17:10.1.0-17.el9_8.x86_64         239/447 
+  Cleanup          : flatpak-libs-1.12.9-4.el9_6.x86_64                 240/447 
+  Cleanup          : aardvark-dns-2:1.17.0-1.el9.x86_64                 241/447 
+  Cleanup          : libsane-hpaio-3.21.2-6.el9.x86_64                  242/447 
+  Cleanup          : vim-enhanced-2:8.2.2637-26.el9_8.4.x86_64          243/447 
+  Cleanup          : libevent-2.1.12-8.el9_4.x86_64                     244/447 
+  Running scriptlet: iscsi-initiator-utils-6.2.1.11-0.git4b3e853.el9.   245/447 
+  Cleanup          : iscsi-initiator-utils-6.2.1.11-0.git4b3e853.el9.   245/447 
+  Running scriptlet: iscsi-initiator-utils-6.2.1.11-0.git4b3e853.el9.   245/447 
+  Running scriptlet: kernel-tools-5.14.0-687.5.3.el9_8.x86_64           246/447 
+  Cleanup          : kernel-tools-5.14.0-687.5.3.el9_8.x86_64           246/447 
+  Running scriptlet: kernel-tools-5.14.0-687.5.3.el9_8.x86_64           246/447 
+  Running scriptlet: sssd-kcm-2.9.8-4.el9_8.x86_64                      247/447 
+  Cleanup          : sssd-kcm-2.9.8-4.el9_8.x86_64                      247/447 
+  Running scriptlet: sssd-kcm-2.9.8-4.el9_8.x86_64                      247/447 
+  Cleanup          : pipewire-utils-1.4.9-1.el9.x86_64                  248/447 
+  Cleanup          : hplip-libs-3.21.2-6.el9.x86_64                     249/447 
+  Running scriptlet: openssh-clients-9.9p1-7.el9_8.x86_64               250/447 
+  Cleanup          : openssh-clients-9.9p1-7.el9_8.x86_64               250/447 
+  Cleanup          : rsync-3.2.5-3.el9_7.2.x86_64                       251/447 
+  Cleanup          : gstreamer1-plugins-ugly-free-1.22.12-6.el9_8.x86   252/447 
+  Cleanup          : flatpak-session-helper-1.12.9-4.el9_6.x86_64       253/447 
+  Running scriptlet: dbus-broker-28-7.el9.x86_64                        254/447 
+  Cleanup          : dbus-broker-28-7.el9.x86_64                        254/447 
+  Running scriptlet: dbus-broker-28-7.el9.x86_64                        254/447 
+  Cleanup          : pipewire-gstreamer-1.4.9-1.el9.x86_64              255/447 
+  Cleanup          : pipewire-alsa-1.4.9-1.el9.x86_64                   256/447 
+  Cleanup          : pipewire-jack-audio-connection-kit-libs-1.4.9-1.   257/447 
+  Cleanup          : pipewire-jack-audio-connection-kit-1.4.9-1.el9.x   258/447 
+  Cleanup          : pipewire-libs-1.4.9-1.el9.x86_64                   259/447 
+  Cleanup          : pipewire-pulseaudio-1.4.9-1.el9.x86_64             260/447 
+  Cleanup          : pipewire-1.4.9-1.el9.x86_64                        261/447 
+  Cleanup          : cups-filters-libs-1.28.7-26.el9.x86_64             262/447 
+  Cleanup          : wget-1.21.1-8.el9_4.x86_64                         263/447 
+  Cleanup          : openssh-9.9p1-7.el9_8.x86_64                       264/447 
+  Cleanup          : tar-2:1.34-11.el9.x86_64                           265/447 
+  Cleanup          : kbd-2.4.0-11.el9.x86_64                            266/447 
+  Cleanup          : sg3_utils-1.47-10.el9.x86_64                       267/447 
+  Cleanup          : libsolv-0.7.24-4.el9.x86_64                        268/447 
+  Running scriptlet: podman-6:5.8.2-1.el9_8.x86_64                      269/447 
+  Cleanup          : podman-6:5.8.2-1.el9_8.x86_64                      269/447 
+  Cleanup          : p11-kit-server-0.26.2-1.el9.x86_64                 270/447 
+  Running scriptlet: iscsi-initiator-utils-iscsiuio-6.2.1.11-0.git4b3   271/447 
+  Cleanup          : iscsi-initiator-utils-iscsiuio-6.2.1.11-0.git4b3   271/447 
+  Running scriptlet: iscsi-initiator-utils-iscsiuio-6.2.1.11-0.git4b3   271/447 
+  Cleanup          : evince-40.5-4.el9.x86_64                           272/447 
+  Cleanup          : poppler-utils-21.01.0-24.el9.x86_64                273/447 
+  Cleanup          : curl-7.76.1-40.el9.x86_64                          274/447 
+  Cleanup          : vim-minimal-2:8.2.2637-26.el9_8.4.x86_64           275/447 
+  Cleanup          : perl-B-1.80-481.1.el9_6.x86_64                     276/447 
+  Running scriptlet: dnsmasq-2.85-18.el9.x86_64                         277/447 
+  Cleanup          : dnsmasq-2.85-18.el9.x86_64                         277/447 
+  Running scriptlet: dnsmasq-2.85-18.el9.x86_64                         277/447 
+  Cleanup          : attr-2.5.1-3.el9.x86_64                            278/447 
+  Cleanup          : evince-previewer-40.5-4.el9.x86_64                 279/447 
+  Cleanup          : libXfont2-2.0.3-12.el9.x86_64                      280/447 
+  Cleanup          : cups-ipptool-1:2.3.3op2-38.el9_8.x86_64            281/447 
+  Cleanup          : acl-2.3.1-4.el9.x86_64                             282/447 
+  Cleanup          : NetworkManager-bluetooth-1:1.54.3-2.el9.x86_64     283/447 
+  Cleanup          : buildah-2:1.43.1-1.el9_8.x86_64                    284/447 
+  Cleanup          : rsyslog-gssapi-8.2510.0-2.el9.x86_64               285/447 
+  Cleanup          : yelp-2:40.3-3.el9.x86_64                           286/447 
+  Cleanup          : yelp-libs-2:40.3-3.el9.x86_64                      287/447 
+  Cleanup          : webkit2gtk3-2.52.3-1.el9_8.x86_64                  288/447 
+  Cleanup          : gstreamer1-plugins-bad-free-1.22.12-7.el9_8.x86_   289/447 
+  Cleanup          : libxslt-1.1.34-14.el9_7.1.x86_64                   290/447 
+  Cleanup          : webkit2gtk3-jsc-2.52.3-1.el9_8.x86_64              291/447 
+  Cleanup          : gstreamer1-plugins-bad-free-libs-1.22.12-7.el9_8   292/447 
+  Cleanup          : libsoup-2.72.0-12.el9_7.5.x86_64                   293/447 
+  Cleanup          : libsndfile-1.0.31-9.el9.x86_64                     294/447 
+  Cleanup          : PackageKit-command-not-found-1.2.6-1.el9.x86_64    295/447 
+  Cleanup          : libgcrypt-1.10.0-11.el9.x86_64                     296/447 
+  Cleanup          : evince-thumbnailer-40.5-4.el9.x86_64               297/447 
+  Cleanup          : rsyslog-gnutls-8.2510.0-2.el9.x86_64               298/447 
+  Cleanup          : libexif-0.6.22-6.el9.x86_64                        299/447 
+  Cleanup          : PackageKit-gstreamer-plugin-1.2.6-1.el9.x86_64     300/447 
+  Cleanup          : containernetworking-plugins-1:1.9.0-2.el9.x86_64   301/447 
+  Cleanup          : sg3_utils-libs-1.47-10.el9.x86_64                  302/447 
+  Cleanup          : isns-utils-libs-0.101-4.el9.x86_64                 303/447 
+  Running scriptlet: cups-client-1:2.3.3op2-38.el9_8.x86_64             304/447 
+  Cleanup          : cups-client-1:2.3.3op2-38.el9_8.x86_64             304/447 
+  Cleanup          : cups-libs-1:2.3.3op2-38.el9_8.x86_64               305/447 
+  Cleanup          : perl-interpreter-4:5.32.1-481.1.el9_6.x86_64       306/447 
+  Cleanup          : NetworkManager-wifi-1:1.54.3-2.el9.x86_64          307/447 
+  Cleanup          : rsyslog-relp-8.2510.0-2.el9.x86_64                 308/447 
+  Running scriptlet: rsyslog-8.2510.0-2.el9.x86_64                      309/447 
+  Cleanup          : rsyslog-8.2510.0-2.el9.x86_64                      309/447 
+  Running scriptlet: rsyslog-8.2510.0-2.el9.x86_64                      309/447 
+  Cleanup          : gstreamer1-plugins-good-gtk-1.22.12-7.el9_8.x86_   310/447 
+  Cleanup          : perl-IPC-Open3-1.21-481.1.el9_6.noarch             311/447 
+  Cleanup          : gstreamer1-plugins-good-1.22.12-7.el9_8.x86_64     312/447 
+  Cleanup          : mpg123-libs-1.32.9-1.el9.x86_64                    313/447 
+  Cleanup          : NetworkManager-wwan-1:1.54.3-2.el9.x86_64          314/447 
+  Cleanup          : evince-nautilus-40.5-4.el9.x86_64                  315/447 
+  Cleanup          : evince-libs-40.5-4.el9.x86_64                      316/447 
+  Cleanup          : libarchive-3.5.3-9.el9_7.x86_64                    317/447 
+  Cleanup          : gstreamer1-plugins-base-1.22.12-8.el9_8.x86_64     318/447 
+  Cleanup          : poppler-glib-21.01.0-24.el9.x86_64                 319/447 
+  Cleanup          : texlive-lib-9:20200406-26.el9.x86_64               320/447 
+  Cleanup          : PackageKit-gtk3-module-1.2.6-1.el9.x86_64          321/447 
+  Cleanup          : kernel-tools-libs-5.14.0-687.5.3.el9_8.x86_64      322/447 
+  Running scriptlet: kernel-tools-libs-5.14.0-687.5.3.el9_8.x86_64      322/447 
+  Cleanup          : vim-common-2:8.2.2637-26.el9_8.4.x86_64            323/447 
+  Cleanup          : poppler-cpp-21.01.0-24.el9.x86_64                  324/447 
+  Cleanup          : poppler-21.01.0-24.el9.x86_64                      325/447 
+  Cleanup          : libtiff-4.4.0-16.el9.x86_64                        326/447 
+  Cleanup          : libpng-2:1.6.37-15.el9_8.x86_64                    327/447 
+  Cleanup          : NetworkManager-adsl-1:1.54.3-2.el9.x86_64          328/447 
+  Cleanup          : rhc-1:0.2.7-5.el9_8.x86_64                         329/447 
+  Running scriptlet: rhc-1:0.2.7-5.el9_8.x86_64                         329/447 
+  Cleanup          : sssd-2.9.8-4.el9_8.x86_64                          330/447 
+  Cleanup          : perl-File-Find-1.37-481.1.el9_6.noarch             331/447 
+  Cleanup          : perl-File-Basename-2.85-481.1.el9_6.noarch         332/447 
+  Cleanup          : perl-FileHandle-2.03-481.1.el9_6.noarch            333/447 
+  Cleanup          : cockpit-356-1.el9.x86_64                           334/447 
+  Cleanup          : perl-Math-Complex-1.59-481.1.el9_6.noarch          335/447 
+  Cleanup          : sssd-ipa-2.9.8-4.el9_8.x86_64                      336/447 
+  Cleanup          : sssd-ad-2.9.8-4.el9_8.x86_64                       337/447 
+  Cleanup          : libsmbclient-4.23.5-8.el9_8.x86_64                 338/447 
+  Running scriptlet: cockpit-ws-356-1.el9.x86_64                        339/447 
+  Cleanup          : cockpit-ws-356-1.el9.x86_64                        339/447 
+  Running scriptlet: cockpit-ws-356-1.el9.x86_64                        339/447 
+  Cleanup          : sssd-proxy-2.9.8-4.el9_8.x86_64                    340/447 
+  Cleanup          : sssd-common-pac-2.9.8-4.el9_8.x86_64               341/447 
+  Cleanup          : libwbclient-4.23.5-8.el9_8.x86_64                  342/447 
+  Cleanup          : samba-client-libs-4.23.5-8.el9_8.x86_64            343/447 
+  Cleanup          : samba-common-libs-4.23.5-8.el9_8.x86_64            344/447 
+  Cleanup          : sssd-ldap-2.9.8-4.el9_8.x86_64                     345/447 
+  Cleanup          : perl-IO-1.43-481.1.el9_6.x86_64                    346/447 
+  Cleanup          : bind-utils-32:9.16.23-40.el9_8.1.x86_64            347/447 
+  Cleanup          : bind-libs-32:9.16.23-40.el9_8.1.x86_64             348/447 
+  Cleanup          : libxml2-2.9.13-14.el9_7.x86_64                     349/447 
+  Cleanup          : sssd-krb5-2.9.8-4.el9_8.x86_64                     350/447 
+  Cleanup          : perl-File-stat-1.09-481.1.el9_6.noarch             351/447 
+  Cleanup          : sssd-krb5-common-2.9.8-4.el9_8.x86_64              352/447 
+  Running scriptlet: sssd-common-2.9.8-4.el9_8.x86_64                   353/447 
+  Cleanup          : sssd-common-2.9.8-4.el9_8.x86_64                   353/447 
+  Running scriptlet: sssd-common-2.9.8-4.el9_8.x86_64                   353/447 
+  Running scriptlet: sssd-client-2.9.8-4.el9_8.x86_64                   354/447 
+  Cleanup          : sssd-client-2.9.8-4.el9_8.x86_64                   354/447 
+  Cleanup          : libsss_nss_idmap-2.9.8-4.el9_8.x86_64              355/447 
+  Cleanup          : libldb-4.23.5-8.el9_8.x86_64                       356/447 
+  Cleanup          : libsss_certmap-2.9.8-4.el9_8.x86_64                357/447 
+  Cleanup          : libsss_sudo-2.9.8-4.el9_8.x86_64                   358/447 
+  Cleanup          : libsss_idmap-2.9.8-4.el9_8.x86_64                  359/447 
+  Cleanup          : giflib-5.2.1-9.el9_7.1.x86_64                      360/447 
+  Cleanup          : perl-Class-Struct-0.66-481.1.el9_6.noarch          361/447 
+  Cleanup          : perl-overload-1.31-481.1.el9_6.noarch              362/447 
+  Cleanup          : perl-Errno-1.30-481.1.el9_6.x86_64                 363/447 
+  Cleanup          : perl-vars-1.05-481.1.el9_6.noarch                  364/447 
+  Running scriptlet: microcode_ctl-4:20260210-1.el9_8.noarch            365/447 
+  Cleanup          : microcode_ctl-4:20260210-1.el9_8.noarch            365/447 
+  Running scriptlet: microcode_ctl-4:20260210-1.el9_8.noarch            365/447 
+  Cleanup          : dracut-network-057-110.git20260130.el9.x86_64      366/447 
+  Cleanup          : perl-overloading-0.02-481.1.el9_6.noarch           367/447 
+  Cleanup          : perl-SelectSaver-1.02-481.1.el9_6.noarch           368/447 
+  Cleanup          : perl-base-2.27-481.1.el9_6.noarch                  369/447 
+  Running scriptlet: firewalld-1.3.4-18.el9_7.noarch                    370/447 
+  Cleanup          : firewalld-1.3.4-18.el9_7.noarch                    370/447 
+  Running scriptlet: firewalld-1.3.4-18.el9_7.noarch                    370/447 
+  Cleanup          : perl-locale-1.09-481.1.el9_6.noarch                371/447 
+  Cleanup          : perl-AutoLoader-5.74-481.1.el9_6.noarch            372/447 
+  Cleanup          : cockpit-packagekit-356-1.el9.noarch                373/447 
+  Cleanup          : cockpit-storaged-356-1.el9.noarch                  374/447 
+  Cleanup          : cockpit-system-356-1.el9.noarch                    375/447 
+  Cleanup          : cockpit-bridge-356-1.el9.noarch                    376/447 
+  Cleanup          : perl-DynaLoader-1.47-481.1.el9_6.x86_64            377/447 
+  Cleanup          : python3-urllib3-1.26.5-6.el9_7.1.noarch            378/447 
+  Cleanup          : perl-subs-1.03-481.1.el9_6.noarch                  379/447 
+  Cleanup          : perl-Getopt-Std-1.12-481.1.el9_6.noarch            380/447 
+  Cleanup          : python3-idna-2.10-7.el9_4.1.noarch                 381/447 
+  Cleanup          : python3-firewall-1.3.4-18.el9_7.noarch             382/447 
+  Cleanup          : perl-Symbol-1.08-481.1.el9_6.noarch                383/447 
+  Cleanup          : xorg-x11-server-common-1.20.11-33.el9.x86_64       384/447 
+  Cleanup          : dracut-squash-057-110.git20260130.el9.x86_64       385/447 
+  Cleanup          : dracut-config-rescue-057-110.git20260130.el9.x86   386/447 
+  Cleanup          : perl-if-0.60.800-481.1.el9_6.noarch                387/447 
+  Cleanup          : firewalld-filesystem-1.3.4-18.el9_7.noarch         388/447 
+  Cleanup          : bind-license-32:9.16.23-40.el9_8.1.noarch          389/447 
+  Cleanup          : samba-common-4.23.5-8.el9_8.noarch                 390/447 
+  Cleanup          : cockpit-ws-selinux-356-1.el9.x86_64                391/447 
+  Running scriptlet: cockpit-ws-selinux-356-1.el9.x86_64                391/447 
+  Cleanup          : vim-filesystem-2:8.2.2637-26.el9_8.4.noarch        392/447 
+  Cleanup          : rsyslog-logrotate-8.2510.0-2.el9.x86_64            393/447 
+  Cleanup          : kbd-legacy-2.4.0-11.el9.noarch                     394/447 
+  Cleanup          : kbd-misc-2.4.0-11.el9.noarch                       395/447 
+  Cleanup          : hplip-common-3.21.2-6.el9.x86_64                   396/447 
+  Cleanup          : cups-filesystem-1:2.3.3op2-38.el9_8.noarch         397/447 
+  Cleanup          : flatpak-selinux-1.12.9-4.el9_6.noarch              398/447 
+  Running scriptlet: flatpak-selinux-1.12.9-4.el9_6.noarch              398/447 
+  Cleanup          : NetworkManager-config-server-1:1.54.3-2.el9.noar   399/447 
+  Cleanup          : sudo-1.9.17p2-3.el9_8.x86_64                       400/447 
+  Cleanup          : pam-1.5.1-28.el9.x86_64                            401/447 
+  Cleanup          : openssl-1:3.5.5-2.el9_8.x86_64                     402/447 
+  Cleanup          : PackageKit-1.2.6-1.el9.x86_64                      403/447 
+  Cleanup          : perl-POSIX-1.94-481.1.el9_6.x86_64                 404/447 
+  Cleanup          : dracut-057-110.git20260130.el9.x86_64              405/447 
+  Cleanup          : libkcapi-hmaccalc-1.4.0-2.el9.x86_64               406/447 
+  Cleanup          : jq-1.6-19.el9.x86_64                               407/447 
+  Cleanup          : gzip-1.12-1.el9.x86_64                             408/447 
+  Cleanup          : pixman-0.40.0-6.el9.x86_64                         409/447 
+  Cleanup          : libkcapi-1.4.0-2.el9.x86_64                        410/447 
+  Cleanup          : PackageKit-glib-1.2.6-1.el9.x86_64                 411/447 
+  Cleanup          : perl-mro-1.23-481.1.el9_6.x86_64                   412/447 
+  Cleanup          : NetworkManager-team-1:1.54.3-2.el9.x86_64          413/447 
+  Running scriptlet: NetworkManager-1:1.54.3-2.el9.x86_64               414/447 
+  Cleanup          : NetworkManager-1:1.54.3-2.el9.x86_64               414/447 
+  Running scriptlet: NetworkManager-1:1.54.3-2.el9.x86_64               414/447 
+  Cleanup          : libcurl-7.76.1-40.el9.x86_64                       415/447 
+  Cleanup          : libssh-0.10.4-18.el9.x86_64                        416/447 
+  Cleanup          : krb5-libs-1.21.1-9.el9_8.x86_64                    417/447 
+  Cleanup          : NetworkManager-libnm-1:1.54.3-2.el9.x86_64         418/447 
+  Cleanup          : glib2-2.68.4-19.el9.x86_64                         419/447 
+  Cleanup          : gnutls-3.8.10-3.el9.x86_64                         420/447 
+  Cleanup          : p11-kit-trust-0.26.2-1.el9.x86_64                  421/447 
+  Running scriptlet: p11-kit-trust-0.26.2-1.el9.x86_64                  421/447 
+  Cleanup          : p11-kit-0.26.2-1.el9.x86_64                        422/447 
+  Cleanup          : libnghttp2-1.43.0-6.el9_8.1.x86_64                 423/447 
+  Cleanup          : python-unversioned-command-3.9.25-7.el9_8.noarch   424/447 
+  Cleanup          : python3-3.9.25-7.el9_8.x86_64                      425/447 
+  Cleanup          : python3-libs-3.9.25-7.el9_8.x86_64                 426/447 
+  Cleanup          : coreutils-8.32-40.el9.x86_64                       427/447 
+  Cleanup          : openssl-libs-1:3.5.5-2.el9_8.x86_64                428/447 
+  Cleanup          : openssl-fips-provider-3.0.7-8.el9.x86_64           429/447 
+  Cleanup          : openssl-fips-provider-so-3.0.7-8.el9.x86_64        430/447 
+  Cleanup          : libcap-2.48-10.el9.x86_64                          431/447 
+  Cleanup          : sqlite-libs-3.34.1-10.el9_8.x86_64                 432/447 
+  Cleanup          : expat-2.5.0-6.el9.x86_64                           433/447 
+  Cleanup          : libacl-2.3.1-4.el9.x86_64                          434/447 
+  Cleanup          : libtasn1-4.16.0-9.el9.x86_64                       435/447 
+  Cleanup          : libattr-2.5.1-3.el9.x86_64                         436/447 
+  Cleanup          : perl-Fcntl-1.13-481.1.el9_6.x86_64                 437/447 
+  Cleanup          : perl-NDBM_File-1.15-481.1.el9_6.x86_64             438/447 
+  Cleanup          : perl-libs-4:5.32.1-481.1.el9_6.x86_64              439/447 
+  Cleanup          : libipa_hbac-2.9.8-4.el9_8.x86_64                   440/447 
+  Cleanup          : coreutils-common-8.32-40.el9.x86_64                441/447 
+  Cleanup          : libssh-config-0.10.4-18.el9.noarch                 442/447 
+  Cleanup          : glibc-all-langpacks-2.34-266.el9_8.x86_64          443/447 
+  Cleanup          : glibc-gconv-extra-2.34-266.el9_8.x86_64            444/447 
+  Running scriptlet: glibc-gconv-extra-2.34-266.el9_8.x86_64            444/447 
+  Cleanup          : glibc-common-2.34-266.el9_8.x86_64                 445/447 
+  Cleanup          : glibc-langpack-en-2.34-266.el9_8.x86_64            446/447 
+  Cleanup          : glibc-2.34-266.el9_8.x86_64                        447/447 
+  Running scriptlet: glibc-all-langpacks-2.34-275.el9_8.x86_64          447/447 
+  Running scriptlet: sssd-common-2.9.8-4.el9_8.1.x86_64                 447/447 
+  Running scriptlet: cups-filters-1.28.7-27.el9_8.x86_64                447/447 
+Warning: The unit file, source configuration file or drop-ins of foomaticrip-upgrade.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+
+  Running scriptlet: kernel-modules-core-5.14.0-687.50.1.el9_8.x86_64   447/447 
+  Running scriptlet: kernel-core-5.14.0-687.50.1.el9_8.x86_64           447/447 
+  Running scriptlet: kernel-modules-5.14.0-687.50.1.el9_8.x86_64        447/447 
+  Running scriptlet: firefox-140.16.0-1.el9_8.x86_64                    447/447 
+  Running scriptlet: microcode_ctl-4:20260210-1.20260812.1.el9_8.noar   447/447 
+  Running scriptlet: glibc-2.34-266.el9_8.x86_64                        447/447 
+  Verifying        : perl-Module-Load-1:0.36-4.el9.noarch                 1/447 
+  Verifying        : kernel-5.14.0-687.50.1.el9_8.x86_64                  2/447 
+  Verifying        : kernel-core-5.14.0-687.50.1.el9_8.x86_64             3/447 
+  Verifying        : kernel-modules-5.14.0-687.50.1.el9_8.x86_64          4/447 
+  Verifying        : kernel-modules-core-5.14.0-687.50.1.el9_8.x86_64     5/447 
+  Verifying        : texlive-lib-9:20200406-26.el9_2.x86_64               6/447 
+  Verifying        : texlive-lib-9:20200406-26.el9.x86_64                 7/447 
+  Verifying        : pixman-0.40.0-6.el9_3.x86_64                         8/447 
+  Verifying        : pixman-0.40.0-6.el9.x86_64                           9/447 
+  Verifying        : mpg123-libs-1.32.9-1.el9_5.x86_64                   10/447 
+  Verifying        : mpg123-libs-1.32.9-1.el9.x86_64                     11/447 
+  Verifying        : PackageKit-1.2.6-2.el9_8.x86_64                     12/447 
+  Verifying        : PackageKit-1.2.6-1.el9.x86_64                       13/447 
+  Verifying        : PackageKit-command-not-found-1.2.6-2.el9_8.x86_6    14/447 
+  Verifying        : PackageKit-command-not-found-1.2.6-1.el9.x86_64     15/447 
+  Verifying        : PackageKit-glib-1.2.6-2.el9_8.x86_64                16/447 
+  Verifying        : PackageKit-glib-1.2.6-1.el9.x86_64                  17/447 
+  Verifying        : PackageKit-gstreamer-plugin-1.2.6-2.el9_8.x86_64    18/447 
+  Verifying        : PackageKit-gstreamer-plugin-1.2.6-1.el9.x86_64      19/447 
+  Verifying        : PackageKit-gtk3-module-1.2.6-2.el9_8.x86_64         20/447 
+  Verifying        : PackageKit-gtk3-module-1.2.6-1.el9.x86_64           21/447 
+  Verifying        : flatpak-1.12.9-4.el9_8.1.x86_64                     22/447 
+  Verifying        : flatpak-1.12.9-4.el9_6.x86_64                       23/447 
+  Verifying        : flatpak-libs-1.12.9-4.el9_8.1.x86_64                24/447 
+  Verifying        : flatpak-libs-1.12.9-4.el9_6.x86_64                  25/447 
+  Verifying        : flatpak-selinux-1.12.9-4.el9_8.1.noarch             26/447 
+  Verifying        : flatpak-selinux-1.12.9-4.el9_6.noarch               27/447 
+  Verifying        : flatpak-session-helper-1.12.9-4.el9_8.1.x86_64      28/447 
+  Verifying        : flatpak-session-helper-1.12.9-4.el9_6.x86_64        29/447 
+  Verifying        : libexif-0.6.22-6.el9_8.1.x86_64                     30/447 
+  Verifying        : libexif-0.6.22-6.el9.x86_64                         31/447 
+  Verifying        : libsndfile-1.0.31-9.el9_8.1.x86_64                  32/447 
+  Verifying        : libsndfile-1.0.31-9.el9.x86_64                      33/447 
+  Verifying        : poppler-21.01.0-24.el9_8.1.x86_64                   34/447 
+  Verifying        : poppler-21.01.0-24.el9.x86_64                       35/447 
+  Verifying        : poppler-cpp-21.01.0-24.el9_8.1.x86_64               36/447 
+  Verifying        : poppler-cpp-21.01.0-24.el9.x86_64                   37/447 
+  Verifying        : poppler-glib-21.01.0-24.el9_8.1.x86_64              38/447 
+  Verifying        : poppler-glib-21.01.0-24.el9.x86_64                  39/447 
+  Verifying        : poppler-utils-21.01.0-24.el9_8.1.x86_64             40/447 
+  Verifying        : poppler-utils-21.01.0-24.el9.x86_64                 41/447 
+  Verifying        : evince-40.5-4.el9_8.1.x86_64                        42/447 
+  Verifying        : evince-40.5-4.el9.x86_64                            43/447 
+  Verifying        : evince-libs-40.5-4.el9_8.1.x86_64                   44/447 
+  Verifying        : evince-libs-40.5-4.el9.x86_64                       45/447 
+  Verifying        : evince-nautilus-40.5-4.el9_8.1.x86_64               46/447 
+  Verifying        : evince-nautilus-40.5-4.el9.x86_64                   47/447 
+  Verifying        : evince-previewer-40.5-4.el9_8.1.x86_64              48/447 
+  Verifying        : evince-previewer-40.5-4.el9.x86_64                  49/447 
+  Verifying        : evince-thumbnailer-40.5-4.el9_8.1.x86_64            50/447 
+  Verifying        : evince-thumbnailer-40.5-4.el9.x86_64                51/447 
+  Verifying        : libxslt-1.1.34-14.el9_8.1.x86_64                    52/447 
+  Verifying        : libxslt-1.1.34-14.el9_7.1.x86_64                    53/447 
+  Verifying        : giflib-5.2.1-10.el9_8.2.x86_64                      54/447 
+  Verifying        : giflib-5.2.1-9.el9_7.1.x86_64                       55/447 
+  Verifying        : aardvark-dns-2:1.17.1-1.el9_8.x86_64                56/447 
+  Verifying        : aardvark-dns-2:1.17.0-1.el9.x86_64                  57/447 
+  Verifying        : xorg-x11-server-Xorg-1.20.11-34.el9_8.3.x86_64      58/447 
+  Verifying        : xorg-x11-server-Xorg-1.20.11-33.el9.x86_64          59/447 
+  Verifying        : xorg-x11-server-Xwayland-24.1.9-4.el9_8.3.x86_64    60/447 
+  Verifying        : xorg-x11-server-Xwayland-24.1.9-2.el9.x86_64        61/447 
+  Verifying        : xorg-x11-server-common-1.20.11-34.el9_8.3.x86_64    62/447 
+  Verifying        : xorg-x11-server-common-1.20.11-33.el9.x86_64        63/447 
+  Verifying        : cups-1:2.3.3op2-39.el9_8.x86_64                     64/447 
+  Verifying        : cups-1:2.3.3op2-38.el9_8.x86_64                     65/447 
+  Verifying        : cups-client-1:2.3.3op2-39.el9_8.x86_64              66/447 
+  Verifying        : cups-client-1:2.3.3op2-38.el9_8.x86_64              67/447 
+  Verifying        : cups-filesystem-1:2.3.3op2-39.el9_8.noarch          68/447 
+  Verifying        : cups-filesystem-1:2.3.3op2-38.el9_8.noarch          69/447 
+  Verifying        : cups-ipptool-1:2.3.3op2-39.el9_8.x86_64             70/447 
+  Verifying        : cups-ipptool-1:2.3.3op2-38.el9_8.x86_64             71/447 
+  Verifying        : hplip-common-3.21.2-6.el9_8.5.x86_64                72/447 
+  Verifying        : hplip-common-3.21.2-6.el9.x86_64                    73/447 
+  Verifying        : hplip-libs-3.21.2-6.el9_8.5.x86_64                  74/447 
+  Verifying        : hplip-libs-3.21.2-6.el9.x86_64                      75/447 
+  Verifying        : libsane-hpaio-3.21.2-6.el9_8.5.x86_64               76/447 
+  Verifying        : libsane-hpaio-3.21.2-6.el9.x86_64                   77/447 
+  Verifying        : qemu-guest-agent-17:10.1.0-17.el9_8.5.x86_64        78/447 
+  Verifying        : qemu-guest-agent-17:10.1.0-17.el9_8.x86_64          79/447 
+  Verifying        : libtiff-4.4.0-18.el9_8.1.x86_64                     80/447 
+  Verifying        : libtiff-4.4.0-16.el9.x86_64                         81/447 
+  Verifying        : yelp-2:40.3-3.el9_8.1.x86_64                        82/447 
+  Verifying        : yelp-2:40.3-3.el9.x86_64                            83/447 
+  Verifying        : yelp-libs-2:40.3-3.el9_8.1.x86_64                   84/447 
+  Verifying        : yelp-libs-2:40.3-3.el9.x86_64                       85/447 
+  Verifying        : p11-kit-server-0.26.4-1.el9_8.x86_64                86/447 
+  Verifying        : p11-kit-server-0.26.2-1.el9.x86_64                  87/447 
+  Verifying        : python-unversioned-command-3.9.25-7.el9_8.3.noar    88/447 
+  Verifying        : python-unversioned-command-3.9.25-7.el9_8.noarch    89/447 
+  Verifying        : libXfont2-2.0.3-12.el9_8.3.x86_64                   90/447 
+  Verifying        : libXfont2-2.0.3-12.el9.x86_64                       91/447 
+  Verifying        : gstreamer1-plugins-bad-free-1.22.12-7.el9_8.4.x8    92/447 
+  Verifying        : gstreamer1-plugins-bad-free-1.22.12-7.el9_8.x86_    93/447 
+  Verifying        : gstreamer1-plugins-bad-free-libs-1.22.12-7.el9_8    94/447 
+  Verifying        : gstreamer1-plugins-bad-free-libs-1.22.12-7.el9_8    95/447 
+  Verifying        : gstreamer1-plugins-ugly-free-1.22.12-6.el9_8.2.x    96/447 
+  Verifying        : gstreamer1-plugins-ugly-free-1.22.12-6.el9_8.x86    97/447 
+  Verifying        : cups-filters-1.28.7-27.el9_8.x86_64                 98/447 
+  Verifying        : cups-filters-1.28.7-26.el9.x86_64                   99/447 
+  Verifying        : cups-filters-libs-1.28.7-27.el9_8.x86_64           100/447 
+  Verifying        : cups-filters-libs-1.28.7-26.el9.x86_64             101/447 
+  Verifying        : gstreamer1-plugins-good-1.22.12-7.el9_8.8.x86_64   102/447 
+  Verifying        : gstreamer1-plugins-good-1.22.12-7.el9_8.x86_64     103/447 
+  Verifying        : gstreamer1-plugins-good-gtk-1.22.12-7.el9_8.8.x8   104/447 
+  Verifying        : gstreamer1-plugins-good-gtk-1.22.12-7.el9_8.x86_   105/447 
+  Verifying        : pipewire-1.4.11-1.el9_8.2.x86_64                   106/447 
+  Verifying        : pipewire-1.4.9-1.el9.x86_64                        107/447 
+  Verifying        : pipewire-alsa-1.4.11-1.el9_8.2.x86_64              108/447 
+  Verifying        : pipewire-alsa-1.4.9-1.el9.x86_64                   109/447 
+  Verifying        : pipewire-gstreamer-1.4.11-1.el9_8.2.x86_64         110/447 
+  Verifying        : pipewire-gstreamer-1.4.9-1.el9.x86_64              111/447 
+  Verifying        : pipewire-jack-audio-connection-kit-1.4.11-1.el9_   112/447 
+  Verifying        : pipewire-jack-audio-connection-kit-1.4.9-1.el9.x   113/447 
+  Verifying        : pipewire-jack-audio-connection-kit-libs-1.4.11-1   114/447 
+  Verifying        : pipewire-jack-audio-connection-kit-libs-1.4.9-1.   115/447 
+  Verifying        : pipewire-libs-1.4.11-1.el9_8.2.x86_64              116/447 
+  Verifying        : pipewire-libs-1.4.9-1.el9.x86_64                   117/447 
+  Verifying        : pipewire-pulseaudio-1.4.11-1.el9_8.2.x86_64        118/447 
+  Verifying        : pipewire-pulseaudio-1.4.9-1.el9.x86_64             119/447 
+  Verifying        : pipewire-utils-1.4.11-1.el9_8.2.x86_64             120/447 
+  Verifying        : pipewire-utils-1.4.9-1.el9.x86_64                  121/447 
+  Verifying        : wget-1.21.1-11.el9_8.x86_64                        122/447 
+  Verifying        : wget-1.21.1-8.el9_4.x86_64                         123/447 
+  Verifying        : rhc-1:0.2.7-11.el9_8.x86_64                        124/447 
+  Verifying        : rhc-1:0.2.7-5.el9_8.x86_64                         125/447 
+  Verifying        : dnsmasq-2.85-18.el9_8.2.x86_64                     126/447 
+  Verifying        : dnsmasq-2.85-18.el9.x86_64                         127/447 
+  Verifying        : perl-DBI-1.643-9.el9_8.5.x86_64                    128/447 
+  Verifying        : perl-DBI-1.643-9.el9.x86_64                        129/447 
+  Verifying        : python3-lxml-4.6.5-3.el9_8.1.x86_64                130/447 
+  Verifying        : python3-lxml-4.6.5-3.el9.x86_64                    131/447 
+  Verifying        : vim-common-2:8.2.2637-26.el9_8.21.x86_64           132/447 
+  Verifying        : vim-common-2:8.2.2637-26.el9_8.4.x86_64            133/447 
+  Verifying        : vim-enhanced-2:8.2.2637-26.el9_8.21.x86_64         134/447 
+  Verifying        : vim-enhanced-2:8.2.2637-26.el9_8.4.x86_64          135/447 
+  Verifying        : perl-AutoLoader-5.74-484.el9_8.noarch              136/447 
+  Verifying        : perl-AutoLoader-5.74-481.1.el9_6.noarch            137/447 
+  Verifying        : perl-B-1.80-484.el9_8.x86_64                       138/447 
+  Verifying        : perl-B-1.80-481.1.el9_6.x86_64                     139/447 
+  Verifying        : perl-Class-Struct-0.66-484.el9_8.noarch            140/447 
+  Verifying        : perl-Class-Struct-0.66-481.1.el9_6.noarch          141/447 
+  Verifying        : perl-DynaLoader-1.47-484.el9_8.x86_64              142/447 
+  Verifying        : perl-DynaLoader-1.47-481.1.el9_6.x86_64            143/447 
+  Verifying        : perl-Errno-1.30-484.el9_8.x86_64                   144/447 
+  Verifying        : perl-Errno-1.30-481.1.el9_6.x86_64                 145/447 
+  Verifying        : perl-Fcntl-1.13-484.el9_8.x86_64                   146/447 
+  Verifying        : perl-Fcntl-1.13-481.1.el9_6.x86_64                 147/447 
+  Verifying        : perl-File-Basename-2.85-484.el9_8.noarch           148/447 
+  Verifying        : perl-File-Basename-2.85-481.1.el9_6.noarch         149/447 
+  Verifying        : perl-File-Find-1.37-484.el9_8.noarch               150/447 
+  Verifying        : perl-File-Find-1.37-481.1.el9_6.noarch             151/447 
+  Verifying        : perl-File-stat-1.09-484.el9_8.noarch               152/447 
+  Verifying        : perl-File-stat-1.09-481.1.el9_6.noarch             153/447 
+  Verifying        : perl-FileHandle-2.03-484.el9_8.noarch              154/447 
+  Verifying        : perl-FileHandle-2.03-481.1.el9_6.noarch            155/447 
+  Verifying        : perl-Getopt-Std-1.12-484.el9_8.noarch              156/447 
+  Verifying        : perl-Getopt-Std-1.12-481.1.el9_6.noarch            157/447 
+  Verifying        : perl-IO-1.43-484.el9_8.x86_64                      158/447 
+  Verifying        : perl-IO-1.43-481.1.el9_6.x86_64                    159/447 
+  Verifying        : perl-IPC-Open3-1.21-484.el9_8.noarch               160/447 
+  Verifying        : perl-IPC-Open3-1.21-481.1.el9_6.noarch             161/447 
+  Verifying        : perl-Math-Complex-1.59-484.el9_8.noarch            162/447 
+  Verifying        : perl-Math-Complex-1.59-481.1.el9_6.noarch          163/447 
+  Verifying        : perl-NDBM_File-1.15-484.el9_8.x86_64               164/447 
+  Verifying        : perl-NDBM_File-1.15-481.1.el9_6.x86_64             165/447 
+  Verifying        : perl-POSIX-1.94-484.el9_8.x86_64                   166/447 
+  Verifying        : perl-POSIX-1.94-481.1.el9_6.x86_64                 167/447 
+  Verifying        : perl-SelectSaver-1.02-484.el9_8.noarch             168/447 
+  Verifying        : perl-SelectSaver-1.02-481.1.el9_6.noarch           169/447 
+  Verifying        : perl-Symbol-1.08-484.el9_8.noarch                  170/447 
+  Verifying        : perl-Symbol-1.08-481.1.el9_6.noarch                171/447 
+  Verifying        : perl-base-2.27-484.el9_8.noarch                    172/447 
+  Verifying        : perl-base-2.27-481.1.el9_6.noarch                  173/447 
+  Verifying        : perl-if-0.60.800-484.el9_8.noarch                  174/447 
+  Verifying        : perl-if-0.60.800-481.1.el9_6.noarch                175/447 
+  Verifying        : perl-interpreter-4:5.32.1-484.el9_8.x86_64         176/447 
+  Verifying        : perl-interpreter-4:5.32.1-481.1.el9_6.x86_64       177/447 
+  Verifying        : perl-libs-4:5.32.1-484.el9_8.x86_64                178/447 
+  Verifying        : perl-libs-4:5.32.1-481.1.el9_6.x86_64              179/447 
+  Verifying        : perl-locale-1.09-484.el9_8.noarch                  180/447 
+  Verifying        : perl-locale-1.09-481.1.el9_6.noarch                181/447 
+  Verifying        : perl-mro-1.23-484.el9_8.x86_64                     182/447 
+  Verifying        : perl-mro-1.23-481.1.el9_6.x86_64                   183/447 
+  Verifying        : perl-overload-1.31-484.el9_8.noarch                184/447 
+  Verifying        : perl-overload-1.31-481.1.el9_6.noarch              185/447 
+  Verifying        : perl-overloading-0.02-484.el9_8.noarch             186/447 
+  Verifying        : perl-overloading-0.02-481.1.el9_6.noarch           187/447 
+  Verifying        : perl-subs-1.03-484.el9_8.noarch                    188/447 
+  Verifying        : perl-subs-1.03-481.1.el9_6.noarch                  189/447 
+  Verifying        : perl-vars-1.05-484.el9_8.noarch                    190/447 
+  Verifying        : perl-vars-1.05-481.1.el9_6.noarch                  191/447 
+  Verifying        : cockpit-packagekit-356.3-1.el9_8.noarch            192/447 
+  Verifying        : cockpit-packagekit-356-1.el9.noarch                193/447 
+  Verifying        : cockpit-storaged-356.3-1.el9_8.noarch              194/447 
+  Verifying        : cockpit-storaged-356-1.el9.noarch                  195/447 
+  Verifying        : bind-libs-32:9.16.23-40.el9_8.9.x86_64             196/447 
+  Verifying        : bind-libs-32:9.16.23-40.el9_8.1.x86_64             197/447 
+  Verifying        : bind-license-32:9.16.23-40.el9_8.9.noarch          198/447 
+  Verifying        : bind-license-32:9.16.23-40.el9_8.1.noarch          199/447 
+  Verifying        : bind-utils-32:9.16.23-40.el9_8.9.x86_64            200/447 
+  Verifying        : bind-utils-32:9.16.23-40.el9_8.1.x86_64            201/447 
+  Verifying        : libsoup-2.72.0-16.el9_8.3.x86_64                   202/447 
+  Verifying        : libsoup-2.72.0-12.el9_7.5.x86_64                   203/447 
+  Verifying        : gstreamer1-plugins-base-1.22.12-8.el9_8.2.x86_64   204/447 
+  Verifying        : gstreamer1-plugins-base-1.22.12-8.el9_8.x86_64     205/447 
+  Verifying        : webkit2gtk3-2.54.0-1.el9_8.x86_64                  206/447 
+  Verifying        : webkit2gtk3-2.52.3-1.el9_8.x86_64                  207/447 
+  Verifying        : webkit2gtk3-jsc-2.54.0-1.el9_8.x86_64              208/447 
+  Verifying        : webkit2gtk3-jsc-2.52.3-1.el9_8.x86_64              209/447 
+  Verifying        : firefox-140.16.0-1.el9_8.x86_64                    210/447 
+  Verifying        : firefox-140.10.0-1.el9_8.x86_64                    211/447 
+  Verifying        : rsyslog-8.2510.0-2.el9_8.2.x86_64                  212/447 
+  Verifying        : rsyslog-8.2510.0-2.el9.x86_64                      213/447 
+  Verifying        : rsyslog-gnutls-8.2510.0-2.el9_8.2.x86_64           214/447 
+  Verifying        : rsyslog-gnutls-8.2510.0-2.el9.x86_64               215/447 
+  Verifying        : rsyslog-gssapi-8.2510.0-2.el9_8.2.x86_64           216/447 
+  Verifying        : rsyslog-gssapi-8.2510.0-2.el9.x86_64               217/447 
+  Verifying        : rsyslog-logrotate-8.2510.0-2.el9_8.2.x86_64        218/447 
+  Verifying        : rsyslog-logrotate-8.2510.0-2.el9.x86_64            219/447 
+  Verifying        : rsyslog-relp-8.2510.0-2.el9_8.2.x86_64             220/447 
+  Verifying        : rsyslog-relp-8.2510.0-2.el9.x86_64                 221/447 
+  Verifying        : podman-6:5.8.2-7.el9_8.x86_64                      222/447 
+  Verifying        : podman-6:5.8.2-1.el9_8.x86_64                      223/447 
+  Verifying        : containernetworking-plugins-1:1.9.0-4.el9_8.x86_   224/447 
+  Verifying        : containernetworking-plugins-1:1.9.0-2.el9.x86_64   225/447 
+  Verifying        : python3-perf-5.14.0-687.50.1.el9_8.x86_64          226/447 
+  Verifying        : python3-perf-5.14.0-687.5.3.el9_8.x86_64           227/447 
+  Verifying        : buildah-2:1.43.3-2.el9_8.x86_64                    228/447 
+  Verifying        : buildah-2:1.43.1-1.el9_8.x86_64                    229/447 
+  Verifying        : jq-1.6-19.el9_8.2.x86_64                           230/447 
+  Verifying        : jq-1.6-19.el9.x86_64                               231/447 
+  Verifying        : krb5-libs-1.21.1-10.el9_8.x86_64                   232/447 
+  Verifying        : krb5-libs-1.21.1-9.el9_8.x86_64                    233/447 
+  Verifying        : libcap-2.48-10.el9_8.1.x86_64                      234/447 
+  Verifying        : libcap-2.48-10.el9.x86_64                          235/447 
+  Verifying        : openssl-fips-provider-3.0.7-11.el9_8.x86_64        236/447 
+  Verifying        : openssl-fips-provider-3.0.7-8.el9.x86_64           237/447 
+  Verifying        : openssl-fips-provider-so-3.0.7-11.el9_8.x86_64     238/447 
+  Verifying        : openssl-fips-provider-so-3.0.7-8.el9.x86_64        239/447 
+  Verifying        : python3-urllib3-1.26.5-8.el9_8.noarch              240/447 
+  Verifying        : python3-urllib3-1.26.5-6.el9_7.1.noarch            241/447 
+  Verifying        : libpng-2:1.6.37-15.el9_8.2.x86_64                  242/447 
+  Verifying        : libpng-2:1.6.37-15.el9_8.x86_64                    243/447 
+  Verifying        : libtasn1-4.16.0-10.el9_8.x86_64                    244/447 
+  Verifying        : libtasn1-4.16.0-9.el9.x86_64                       245/447 
+  Verifying        : cups-libs-1:2.3.3op2-39.el9_8.x86_64               246/447 
+  Verifying        : cups-libs-1:2.3.3op2-38.el9_8.x86_64               247/447 
+  Verifying        : libsolv-0.7.24-6.el9_8.x86_64                      248/447 
+  Verifying        : libsolv-0.7.24-4.el9.x86_64                        249/447 
+  Verifying        : libipa_hbac-2.9.8-4.el9_8.1.x86_64                 250/447 
+  Verifying        : libipa_hbac-2.9.8-4.el9_8.x86_64                   251/447 
+  Verifying        : libsss_certmap-2.9.8-4.el9_8.1.x86_64              252/447 
+  Verifying        : libsss_certmap-2.9.8-4.el9_8.x86_64                253/447 
+  Verifying        : libsss_idmap-2.9.8-4.el9_8.1.x86_64                254/447 
+  Verifying        : libsss_idmap-2.9.8-4.el9_8.x86_64                  255/447 
+  Verifying        : libsss_nss_idmap-2.9.8-4.el9_8.1.x86_64            256/447 
+  Verifying        : libsss_nss_idmap-2.9.8-4.el9_8.x86_64              257/447 
+  Verifying        : libsss_sudo-2.9.8-4.el9_8.1.x86_64                 258/447 
+  Verifying        : libsss_sudo-2.9.8-4.el9_8.x86_64                   259/447 
+  Verifying        : sssd-2.9.8-4.el9_8.1.x86_64                        260/447 
+  Verifying        : sssd-2.9.8-4.el9_8.x86_64                          261/447 
+  Verifying        : sssd-ad-2.9.8-4.el9_8.1.x86_64                     262/447 
+  Verifying        : sssd-ad-2.9.8-4.el9_8.x86_64                       263/447 
+  Verifying        : sssd-client-2.9.8-4.el9_8.1.x86_64                 264/447 
+  Verifying        : sssd-client-2.9.8-4.el9_8.x86_64                   265/447 
+  Verifying        : sssd-common-2.9.8-4.el9_8.1.x86_64                 266/447 
+  Verifying        : sssd-common-2.9.8-4.el9_8.x86_64                   267/447 
+  Verifying        : sssd-common-pac-2.9.8-4.el9_8.1.x86_64             268/447 
+  Verifying        : sssd-common-pac-2.9.8-4.el9_8.x86_64               269/447 
+  Verifying        : sssd-ipa-2.9.8-4.el9_8.1.x86_64                    270/447 
+  Verifying        : sssd-ipa-2.9.8-4.el9_8.x86_64                      271/447 
+  Verifying        : sssd-kcm-2.9.8-4.el9_8.1.x86_64                    272/447 
+  Verifying        : sssd-kcm-2.9.8-4.el9_8.x86_64                      273/447 
+  Verifying        : sssd-krb5-2.9.8-4.el9_8.1.x86_64                   274/447 
+  Verifying        : sssd-krb5-2.9.8-4.el9_8.x86_64                     275/447 
+  Verifying        : sssd-krb5-common-2.9.8-4.el9_8.1.x86_64            276/447 
+  Verifying        : sssd-krb5-common-2.9.8-4.el9_8.x86_64              277/447 
+  Verifying        : sssd-ldap-2.9.8-4.el9_8.1.x86_64                   278/447 
+  Verifying        : sssd-ldap-2.9.8-4.el9_8.x86_64                     279/447 
+  Verifying        : sssd-proxy-2.9.8-4.el9_8.1.x86_64                  280/447 
+  Verifying        : sssd-proxy-2.9.8-4.el9_8.x86_64                    281/447 
+  Verifying        : acl-2.4.0-1.el9_8.x86_64                           282/447 
+  Verifying        : acl-2.3.1-4.el9.x86_64                             283/447 
+  Verifying        : libacl-2.4.0-1.el9_8.x86_64                        284/447 
+  Verifying        : libacl-2.3.1-4.el9.x86_64                          285/447 
+  Verifying        : glibc-2.34-275.el9_8.x86_64                        286/447 
+  Verifying        : glibc-2.34-266.el9_8.x86_64                        287/447 
+  Verifying        : glibc-all-langpacks-2.34-275.el9_8.x86_64          288/447 
+  Verifying        : glibc-all-langpacks-2.34-266.el9_8.x86_64          289/447 
+  Verifying        : glibc-common-2.34-275.el9_8.x86_64                 290/447 
+  Verifying        : glibc-common-2.34-266.el9_8.x86_64                 291/447 
+  Verifying        : glibc-gconv-extra-2.34-275.el9_8.x86_64            292/447 
+  Verifying        : glibc-gconv-extra-2.34-266.el9_8.x86_64            293/447 
+  Verifying        : glibc-langpack-en-2.34-275.el9_8.x86_64            294/447 
+  Verifying        : glibc-langpack-en-2.34-266.el9_8.x86_64            295/447 
+  Verifying        : p11-kit-0.26.4-1.el9_8.x86_64                      296/447 
+  Verifying        : p11-kit-0.26.2-1.el9.x86_64                        297/447 
+  Verifying        : p11-kit-trust-0.26.4-1.el9_8.x86_64                298/447 
+  Verifying        : p11-kit-trust-0.26.2-1.el9.x86_64                  299/447 
+  Verifying        : gnutls-3.8.10-8.el9_8.x86_64                       300/447 
+  Verifying        : gnutls-3.8.10-3.el9.x86_64                         301/447 
+  Verifying        : libgcrypt-1.10.0-13.el9_8.x86_64                   302/447 
+  Verifying        : libgcrypt-1.10.0-11.el9.x86_64                     303/447 
+  Verifying        : sg3_utils-1.47-10.el9_8.1.x86_64                   304/447 
+  Verifying        : sg3_utils-1.47-10.el9.x86_64                       305/447 
+  Verifying        : sg3_utils-libs-1.47-10.el9_8.1.x86_64              306/447 
+  Verifying        : sg3_utils-libs-1.47-10.el9.x86_64                  307/447 
+  Verifying        : libarchive-3.5.3-11.el9_8.x86_64                   308/447 
+  Verifying        : libarchive-3.5.3-9.el9_7.x86_64                    309/447 
+  Verifying        : iscsi-initiator-utils-6.2.1.11-1.git4b3e853.el9_   310/447 
+  Verifying        : iscsi-initiator-utils-6.2.1.11-0.git4b3e853.el9.   311/447 
+  Verifying        : iscsi-initiator-utils-iscsiuio-6.2.1.11-1.git4b3   312/447 
+  Verifying        : iscsi-initiator-utils-iscsiuio-6.2.1.11-0.git4b3   313/447 
+  Verifying        : isns-utils-libs-0.101-4.el9_8.1.x86_64             314/447 
+  Verifying        : isns-utils-libs-0.101-4.el9.x86_64                 315/447 
+  Verifying        : python3-3.9.25-7.el9_8.3.x86_64                    316/447 
+  Verifying        : python3-3.9.25-7.el9_8.x86_64                      317/447 
+  Verifying        : python3-libs-3.9.25-7.el9_8.3.x86_64               318/447 
+  Verifying        : python3-libs-3.9.25-7.el9_8.x86_64                 319/447 
+  Verifying        : python3-idna-2.10-8.el9_8.noarch                   320/447 
+  Verifying        : python3-idna-2.10-7.el9_4.1.noarch                 321/447 
+  Verifying        : dracut-057-120.git20260728.el9_8.x86_64            322/447 
+  Verifying        : dracut-057-110.git20260130.el9.x86_64              323/447 
+  Verifying        : dracut-config-rescue-057-120.git20260728.el9_8.x   324/447 
+  Verifying        : dracut-config-rescue-057-110.git20260130.el9.x86   325/447 
+  Verifying        : dracut-network-057-120.git20260728.el9_8.x86_64    326/447 
+  Verifying        : dracut-network-057-110.git20260130.el9.x86_64      327/447 
+  Verifying        : dracut-squash-057-120.git20260728.el9_8.x86_64     328/447 
+  Verifying        : dracut-squash-057-110.git20260130.el9.x86_64       329/447 
+  Verifying        : libnghttp2-1.43.0-6.el9_8.2.x86_64                 330/447 
+  Verifying        : libnghttp2-1.43.0-6.el9_8.1.x86_64                 331/447 
+  Verifying        : kbd-2.4.0-12.el9_8.x86_64                          332/447 
+  Verifying        : kbd-2.4.0-11.el9.x86_64                            333/447 
+  Verifying        : kbd-legacy-2.4.0-12.el9_8.noarch                   334/447 
+  Verifying        : kbd-legacy-2.4.0-11.el9.noarch                     335/447 
+  Verifying        : kbd-misc-2.4.0-12.el9_8.noarch                     336/447 
+  Verifying        : kbd-misc-2.4.0-11.el9.noarch                       337/447 
+  Verifying        : NetworkManager-1:1.54.3-5.el9_8.x86_64             338/447 
+  Verifying        : NetworkManager-1:1.54.3-2.el9.x86_64               339/447 
+  Verifying        : NetworkManager-adsl-1:1.54.3-5.el9_8.x86_64        340/447 
+  Verifying        : NetworkManager-adsl-1:1.54.3-2.el9.x86_64          341/447 
+  Verifying        : NetworkManager-bluetooth-1:1.54.3-5.el9_8.x86_64   342/447 
+  Verifying        : NetworkManager-bluetooth-1:1.54.3-2.el9.x86_64     343/447 
+  Verifying        : NetworkManager-config-server-1:1.54.3-5.el9_8.no   344/447 
+  Verifying        : NetworkManager-config-server-1:1.54.3-2.el9.noar   345/447 
+  Verifying        : NetworkManager-libnm-1:1.54.3-5.el9_8.x86_64       346/447 
+  Verifying        : NetworkManager-libnm-1:1.54.3-2.el9.x86_64         347/447 
+  Verifying        : NetworkManager-team-1:1.54.3-5.el9_8.x86_64        348/447 
+  Verifying        : NetworkManager-team-1:1.54.3-2.el9.x86_64          349/447 
+  Verifying        : NetworkManager-tui-1:1.54.3-5.el9_8.x86_64         350/447 
+  Verifying        : NetworkManager-tui-1:1.54.3-2.el9.x86_64           351/447 
+  Verifying        : NetworkManager-wifi-1:1.54.3-5.el9_8.x86_64        352/447 
+  Verifying        : NetworkManager-wifi-1:1.54.3-2.el9.x86_64          353/447 
+  Verifying        : NetworkManager-wwan-1:1.54.3-5.el9_8.x86_64        354/447 
+  Verifying        : NetworkManager-wwan-1:1.54.3-2.el9.x86_64          355/447 
+  Verifying        : sqlite-libs-3.34.1-11.el9_8.x86_64                 356/447 
+  Verifying        : sqlite-libs-3.34.1-10.el9_8.x86_64                 357/447 
+  Verifying        : attr-2.6.0-1.el9_8.x86_64                          358/447 
+  Verifying        : attr-2.5.1-3.el9.x86_64                            359/447 
+  Verifying        : libattr-2.6.0-1.el9_8.x86_64                       360/447 
+  Verifying        : libattr-2.5.1-3.el9.x86_64                         361/447 
+  Verifying        : libxml2-2.9.13-14.el9_8.4.x86_64                   362/447 
+  Verifying        : libxml2-2.9.13-14.el9_7.x86_64                     363/447 
+  Verifying        : python3-libxml2-2.9.13-14.el9_8.4.x86_64           364/447 
+  Verifying        : python3-libxml2-2.9.13-14.el9_7.x86_64             365/447 
+  Verifying        : dbus-broker-28-9.el9_8.x86_64                      366/447 
+  Verifying        : dbus-broker-28-7.el9.x86_64                        367/447 
+  Verifying        : tar-2:1.34-13.el9_8.x86_64                         368/447 
+  Verifying        : tar-2:1.34-11.el9.x86_64                           369/447 
+  Verifying        : gzip-1.12-2.el9_8.x86_64                           370/447 
+  Verifying        : gzip-1.12-1.el9.x86_64                             371/447 
+  Verifying        : libssh-0.10.4-19.el9_8.x86_64                      372/447 
+  Verifying        : libssh-0.10.4-18.el9.x86_64                        373/447 
+  Verifying        : libssh-config-0.10.4-19.el9_8.noarch               374/447 
+  Verifying        : libssh-config-0.10.4-18.el9.noarch                 375/447 
+  Verifying        : expat-2.5.0-6.el9_8.3.x86_64                       376/447 
+  Verifying        : expat-2.5.0-6.el9.x86_64                           377/447 
+  Verifying        : glib2-2.68.4-19.el9_8.10.x86_64                    378/447 
+  Verifying        : glib2-2.68.4-19.el9.x86_64                         379/447 
+  Verifying        : pam-1.5.1-28.el9_8.1.x86_64                        380/447 
+  Verifying        : pam-1.5.1-28.el9.x86_64                            381/447 
+  Verifying        : vim-filesystem-2:8.2.2637-26.el9_8.21.noarch       382/447 
+  Verifying        : vim-filesystem-2:8.2.2637-26.el9_8.4.noarch        383/447 
+  Verifying        : vim-minimal-2:8.2.2637-26.el9_8.21.x86_64          384/447 
+  Verifying        : vim-minimal-2:8.2.2637-26.el9_8.4.x86_64           385/447 
+  Verifying        : coreutils-8.32-41.el9_8.1.x86_64                   386/447 
+  Verifying        : coreutils-8.32-40.el9.x86_64                       387/447 
+  Verifying        : coreutils-common-8.32-41.el9_8.1.x86_64            388/447 
+  Verifying        : coreutils-common-8.32-40.el9.x86_64                389/447 
+  Verifying        : openssl-1:3.5.8-1.el9_8.x86_64                     390/447 
+  Verifying        : openssl-1:3.5.5-2.el9_8.x86_64                     391/447 
+  Verifying        : openssl-libs-1:3.5.8-1.el9_8.x86_64                392/447 
+  Verifying        : openssl-libs-1:3.5.5-2.el9_8.x86_64                393/447 
+  Verifying        : libkcapi-1.4.0-3.el9_8.x86_64                      394/447 
+  Verifying        : libkcapi-1.4.0-2.el9.x86_64                        395/447 
+  Verifying        : libkcapi-hmaccalc-1.4.0-3.el9_8.x86_64             396/447 
+  Verifying        : libkcapi-hmaccalc-1.4.0-2.el9.x86_64               397/447 
+  Verifying        : rsync-3.2.7-1.el9_8.x86_64                         398/447 
+  Verifying        : rsync-3.2.5-3.el9_7.2.x86_64                       399/447 
+  Verifying        : cockpit-356.3-1.el9_8.x86_64                       400/447 
+  Verifying        : cockpit-356-1.el9.x86_64                           401/447 
+  Verifying        : cockpit-bridge-356.3-1.el9_8.noarch                402/447 
+  Verifying        : cockpit-bridge-356-1.el9.noarch                    403/447 
+  Verifying        : cockpit-system-356.3-1.el9_8.noarch                404/447 
+  Verifying        : cockpit-system-356-1.el9.noarch                    405/447 
+  Verifying        : cockpit-ws-356.3-1.el9_8.x86_64                    406/447 
+  Verifying        : cockpit-ws-356-1.el9.x86_64                        407/447 
+  Verifying        : cockpit-ws-selinux-356.3-1.el9_8.x86_64            408/447 
+  Verifying        : cockpit-ws-selinux-356-1.el9.x86_64                409/447 
+  Verifying        : firewalld-1.3.4-20.el9_8.noarch                    410/447 
+  Verifying        : firewalld-1.3.4-18.el9_7.noarch                    411/447 
+  Verifying        : firewalld-filesystem-1.3.4-20.el9_8.noarch         412/447 
+  Verifying        : firewalld-filesystem-1.3.4-18.el9_7.noarch         413/447 
+  Verifying        : libldb-4.23.5-11.el9_8.x86_64                      414/447 
+  Verifying        : libldb-4.23.5-8.el9_8.x86_64                       415/447 
+  Verifying        : libsmbclient-4.23.5-11.el9_8.x86_64                416/447 
+  Verifying        : libsmbclient-4.23.5-8.el9_8.x86_64                 417/447 
+  Verifying        : libwbclient-4.23.5-11.el9_8.x86_64                 418/447 
+  Verifying        : libwbclient-4.23.5-8.el9_8.x86_64                  419/447 
+  Verifying        : python3-firewall-1.3.4-20.el9_8.noarch             420/447 
+  Verifying        : python3-firewall-1.3.4-18.el9_7.noarch             421/447 
+  Verifying        : samba-client-libs-4.23.5-11.el9_8.x86_64           422/447 
+  Verifying        : samba-client-libs-4.23.5-8.el9_8.x86_64            423/447 
+  Verifying        : samba-common-4.23.5-11.el9_8.noarch                424/447 
+  Verifying        : samba-common-4.23.5-8.el9_8.noarch                 425/447 
+  Verifying        : samba-common-libs-4.23.5-11.el9_8.x86_64           426/447 
+  Verifying        : samba-common-libs-4.23.5-8.el9_8.x86_64            427/447 
+  Verifying        : libevent-2.1.13-1.el9_8.x86_64                     428/447 
+  Verifying        : libevent-2.1.12-8.el9_4.x86_64                     429/447 
+  Verifying        : microcode_ctl-4:20260210-1.20260812.1.el9_8.noar   430/447 
+  Verifying        : microcode_ctl-4:20260210-1.el9_8.noarch            431/447 
+  Verifying        : curl-7.76.1-40.el9_8.7.x86_64                      432/447 
+  Verifying        : curl-7.76.1-40.el9.x86_64                          433/447 
+  Verifying        : libcurl-7.76.1-40.el9_8.7.x86_64                   434/447 
+  Verifying        : libcurl-7.76.1-40.el9.x86_64                       435/447 
+  Verifying        : openssh-9.9p1-11.el9_8.x86_64                      436/447 
+  Verifying        : openssh-9.9p1-7.el9_8.x86_64                       437/447 
+  Verifying        : openssh-clients-9.9p1-11.el9_8.x86_64              438/447 
+  Verifying        : openssh-clients-9.9p1-7.el9_8.x86_64               439/447 
+  Verifying        : openssh-server-9.9p1-11.el9_8.x86_64               440/447 
+  Verifying        : openssh-server-9.9p1-7.el9_8.x86_64                441/447 
+  Verifying        : sudo-1.9.17p2-3.el9_8.1.x86_64                     442/447 
+  Verifying        : sudo-1.9.17p2-3.el9_8.x86_64                       443/447 
+  Verifying        : kernel-tools-5.14.0-687.50.1.el9_8.x86_64          444/447 
+  Verifying        : kernel-tools-5.14.0-687.5.3.el9_8.x86_64           445/447 
+  Verifying        : kernel-tools-libs-5.14.0-687.50.1.el9_8.x86_64     446/447 
+  Verifying        : kernel-tools-libs-5.14.0-687.5.3.el9_8.x86_64      447/447 
+Installed products updated.
+
+Upgraded:
+  NetworkManager-1:1.54.3-5.el9_8.x86_64                                        
+  NetworkManager-adsl-1:1.54.3-5.el9_8.x86_64                                   
+  NetworkManager-bluetooth-1:1.54.3-5.el9_8.x86_64                              
+  NetworkManager-config-server-1:1.54.3-5.el9_8.noarch                          
+  NetworkManager-libnm-1:1.54.3-5.el9_8.x86_64                                  
+  NetworkManager-team-1:1.54.3-5.el9_8.x86_64                                   
+  NetworkManager-tui-1:1.54.3-5.el9_8.x86_64                                    
+  NetworkManager-wifi-1:1.54.3-5.el9_8.x86_64                                   
+  NetworkManager-wwan-1:1.54.3-5.el9_8.x86_64                                   
+  PackageKit-1.2.6-2.el9_8.x86_64                                               
+  PackageKit-command-not-found-1.2.6-2.el9_8.x86_64                             
+  PackageKit-glib-1.2.6-2.el9_8.x86_64                                          
+  PackageKit-gstreamer-plugin-1.2.6-2.el9_8.x86_64                              
+  PackageKit-gtk3-module-1.2.6-2.el9_8.x86_64                                   
+  aardvark-dns-2:1.17.1-1.el9_8.x86_64                                          
+  acl-2.4.0-1.el9_8.x86_64                                                      
+  attr-2.6.0-1.el9_8.x86_64                                                     
+  bind-libs-32:9.16.23-40.el9_8.9.x86_64                                        
+  bind-license-32:9.16.23-40.el9_8.9.noarch                                     
+  bind-utils-32:9.16.23-40.el9_8.9.x86_64                                       
+  buildah-2:1.43.3-2.el9_8.x86_64                                               
+  cockpit-356.3-1.el9_8.x86_64                                                  
+  cockpit-bridge-356.3-1.el9_8.noarch                                           
+  cockpit-packagekit-356.3-1.el9_8.noarch                                       
+  cockpit-storaged-356.3-1.el9_8.noarch                                         
+  cockpit-system-356.3-1.el9_8.noarch                                           
+  cockpit-ws-356.3-1.el9_8.x86_64                                               
+  cockpit-ws-selinux-356.3-1.el9_8.x86_64                                       
+  containernetworking-plugins-1:1.9.0-4.el9_8.x86_64                            
+  coreutils-8.32-41.el9_8.1.x86_64                                              
+  coreutils-common-8.32-41.el9_8.1.x86_64                                       
+  cups-1:2.3.3op2-39.el9_8.x86_64                                               
+  cups-client-1:2.3.3op2-39.el9_8.x86_64                                        
+  cups-filesystem-1:2.3.3op2-39.el9_8.noarch                                    
+  cups-filters-1.28.7-27.el9_8.x86_64                                           
+  cups-filters-libs-1.28.7-27.el9_8.x86_64                                      
+  cups-ipptool-1:2.3.3op2-39.el9_8.x86_64                                       
+  cups-libs-1:2.3.3op2-39.el9_8.x86_64                                          
+  curl-7.76.1-40.el9_8.7.x86_64                                                 
+  dbus-broker-28-9.el9_8.x86_64                                                 
+  dnsmasq-2.85-18.el9_8.2.x86_64                                                
+  dracut-057-120.git20260728.el9_8.x86_64                                       
+  dracut-config-rescue-057-120.git20260728.el9_8.x86_64                         
+  dracut-network-057-120.git20260728.el9_8.x86_64                               
+  dracut-squash-057-120.git20260728.el9_8.x86_64                                
+  evince-40.5-4.el9_8.1.x86_64                                                  
+  evince-libs-40.5-4.el9_8.1.x86_64                                             
+  evince-nautilus-40.5-4.el9_8.1.x86_64                                         
+  evince-previewer-40.5-4.el9_8.1.x86_64                                        
+  evince-thumbnailer-40.5-4.el9_8.1.x86_64                                      
+  expat-2.5.0-6.el9_8.3.x86_64                                                  
+  firefox-140.16.0-1.el9_8.x86_64                                               
+  firewalld-1.3.4-20.el9_8.noarch                                               
+  firewalld-filesystem-1.3.4-20.el9_8.noarch                                    
+  flatpak-1.12.9-4.el9_8.1.x86_64                                               
+  flatpak-libs-1.12.9-4.el9_8.1.x86_64                                          
+  flatpak-selinux-1.12.9-4.el9_8.1.noarch                                       
+  flatpak-session-helper-1.12.9-4.el9_8.1.x86_64                                
+  giflib-5.2.1-10.el9_8.2.x86_64                                                
+  glib2-2.68.4-19.el9_8.10.x86_64                                               
+  glibc-2.34-275.el9_8.x86_64                                                   
+  glibc-all-langpacks-2.34-275.el9_8.x86_64                                     
+  glibc-common-2.34-275.el9_8.x86_64                                            
+  glibc-gconv-extra-2.34-275.el9_8.x86_64                                       
+  glibc-langpack-en-2.34-275.el9_8.x86_64                                       
+  gnutls-3.8.10-8.el9_8.x86_64                                                  
+  gstreamer1-plugins-bad-free-1.22.12-7.el9_8.4.x86_64                          
+  gstreamer1-plugins-bad-free-libs-1.22.12-7.el9_8.4.x86_64                     
+  gstreamer1-plugins-base-1.22.12-8.el9_8.2.x86_64                              
+  gstreamer1-plugins-good-1.22.12-7.el9_8.8.x86_64                              
+  gstreamer1-plugins-good-gtk-1.22.12-7.el9_8.8.x86_64                          
+  gstreamer1-plugins-ugly-free-1.22.12-6.el9_8.2.x86_64                         
+  gzip-1.12-2.el9_8.x86_64                                                      
+  hplip-common-3.21.2-6.el9_8.5.x86_64                                          
+  hplip-libs-3.21.2-6.el9_8.5.x86_64                                            
+  iscsi-initiator-utils-6.2.1.11-1.git4b3e853.el9_8.2.x86_64                    
+  iscsi-initiator-utils-iscsiuio-6.2.1.11-1.git4b3e853.el9_8.2.x86_64           
+  isns-utils-libs-0.101-4.el9_8.1.x86_64                                        
+  jq-1.6-19.el9_8.2.x86_64                                                      
+  kbd-2.4.0-12.el9_8.x86_64                                                     
+  kbd-legacy-2.4.0-12.el9_8.noarch                                              
+  kbd-misc-2.4.0-12.el9_8.noarch                                                
+  kernel-tools-5.14.0-687.50.1.el9_8.x86_64                                     
+  kernel-tools-libs-5.14.0-687.50.1.el9_8.x86_64                                
+  krb5-libs-1.21.1-10.el9_8.x86_64                                              
+  libXfont2-2.0.3-12.el9_8.3.x86_64                                             
+  libacl-2.4.0-1.el9_8.x86_64                                                   
+  libarchive-3.5.3-11.el9_8.x86_64                                              
+  libattr-2.6.0-1.el9_8.x86_64                                                  
+  libcap-2.48-10.el9_8.1.x86_64                                                 
+  libcurl-7.76.1-40.el9_8.7.x86_64                                              
+  libevent-2.1.13-1.el9_8.x86_64                                                
+  libexif-0.6.22-6.el9_8.1.x86_64                                               
+  libgcrypt-1.10.0-13.el9_8.x86_64                                              
+  libipa_hbac-2.9.8-4.el9_8.1.x86_64                                            
+  libkcapi-1.4.0-3.el9_8.x86_64                                                 
+  libkcapi-hmaccalc-1.4.0-3.el9_8.x86_64                                        
+  libldb-4.23.5-11.el9_8.x86_64                                                 
+  libnghttp2-1.43.0-6.el9_8.2.x86_64                                            
+  libpng-2:1.6.37-15.el9_8.2.x86_64                                             
+  libsane-hpaio-3.21.2-6.el9_8.5.x86_64                                         
+  libsmbclient-4.23.5-11.el9_8.x86_64                                           
+  libsndfile-1.0.31-9.el9_8.1.x86_64                                            
+  libsolv-0.7.24-6.el9_8.x86_64                                                 
+  libsoup-2.72.0-16.el9_8.3.x86_64                                              
+  libssh-0.10.4-19.el9_8.x86_64                                                 
+  libssh-config-0.10.4-19.el9_8.noarch                                          
+  libsss_certmap-2.9.8-4.el9_8.1.x86_64                                         
+  libsss_idmap-2.9.8-4.el9_8.1.x86_64                                           
+  libsss_nss_idmap-2.9.8-4.el9_8.1.x86_64                                       
+  libsss_sudo-2.9.8-4.el9_8.1.x86_64                                            
+  libtasn1-4.16.0-10.el9_8.x86_64                                               
+  libtiff-4.4.0-18.el9_8.1.x86_64                                               
+  libwbclient-4.23.5-11.el9_8.x86_64                                            
+  libxml2-2.9.13-14.el9_8.4.x86_64                                              
+  libxslt-1.1.34-14.el9_8.1.x86_64                                              
+  microcode_ctl-4:20260210-1.20260812.1.el9_8.noarch                            
+  mpg123-libs-1.32.9-1.el9_5.x86_64                                             
+  openssh-9.9p1-11.el9_8.x86_64                                                 
+  openssh-clients-9.9p1-11.el9_8.x86_64                                         
+  openssh-server-9.9p1-11.el9_8.x86_64                                          
+  openssl-1:3.5.8-1.el9_8.x86_64                                                
+  openssl-fips-provider-3.0.7-11.el9_8.x86_64                                   
+  openssl-fips-provider-so-3.0.7-11.el9_8.x86_64                                
+  openssl-libs-1:3.5.8-1.el9_8.x86_64                                           
+  p11-kit-0.26.4-1.el9_8.x86_64                                                 
+  p11-kit-server-0.26.4-1.el9_8.x86_64                                          
+  p11-kit-trust-0.26.4-1.el9_8.x86_64                                           
+  pam-1.5.1-28.el9_8.1.x86_64                                                   
+  perl-AutoLoader-5.74-484.el9_8.noarch                                         
+  perl-B-1.80-484.el9_8.x86_64                                                  
+  perl-Class-Struct-0.66-484.el9_8.noarch                                       
+  perl-DBI-1.643-9.el9_8.5.x86_64                                               
+  perl-DynaLoader-1.47-484.el9_8.x86_64                                         
+  perl-Errno-1.30-484.el9_8.x86_64                                              
+  perl-Fcntl-1.13-484.el9_8.x86_64                                              
+  perl-File-Basename-2.85-484.el9_8.noarch                                      
+  perl-File-Find-1.37-484.el9_8.noarch                                          
+  perl-File-stat-1.09-484.el9_8.noarch                                          
+  perl-FileHandle-2.03-484.el9_8.noarch                                         
+  perl-Getopt-Std-1.12-484.el9_8.noarch                                         
+  perl-IO-1.43-484.el9_8.x86_64                                                 
+  perl-IPC-Open3-1.21-484.el9_8.noarch                                          
+  perl-Math-Complex-1.59-484.el9_8.noarch                                       
+  perl-NDBM_File-1.15-484.el9_8.x86_64                                          
+  perl-POSIX-1.94-484.el9_8.x86_64                                              
+  perl-SelectSaver-1.02-484.el9_8.noarch                                        
+  perl-Symbol-1.08-484.el9_8.noarch                                             
+  perl-base-2.27-484.el9_8.noarch                                               
+  perl-if-0.60.800-484.el9_8.noarch                                             
+  perl-interpreter-4:5.32.1-484.el9_8.x86_64                                    
+  perl-libs-4:5.32.1-484.el9_8.x86_64                                           
+  perl-locale-1.09-484.el9_8.noarch                                             
+  perl-mro-1.23-484.el9_8.x86_64                                                
+  perl-overload-1.31-484.el9_8.noarch                                           
+  perl-overloading-0.02-484.el9_8.noarch                                        
+  perl-subs-1.03-484.el9_8.noarch                                               
+  perl-vars-1.05-484.el9_8.noarch                                               
+  pipewire-1.4.11-1.el9_8.2.x86_64                                              
+  pipewire-alsa-1.4.11-1.el9_8.2.x86_64                                         
+  pipewire-gstreamer-1.4.11-1.el9_8.2.x86_64                                    
+  pipewire-jack-audio-connection-kit-1.4.11-1.el9_8.2.x86_64                    
+  pipewire-jack-audio-connection-kit-libs-1.4.11-1.el9_8.2.x86_64               
+  pipewire-libs-1.4.11-1.el9_8.2.x86_64                                         
+  pipewire-pulseaudio-1.4.11-1.el9_8.2.x86_64                                   
+  pipewire-utils-1.4.11-1.el9_8.2.x86_64                                        
+  pixman-0.40.0-6.el9_3.x86_64                                                  
+  podman-6:5.8.2-7.el9_8.x86_64                                                 
+  poppler-21.01.0-24.el9_8.1.x86_64                                             
+  poppler-cpp-21.01.0-24.el9_8.1.x86_64                                         
+  poppler-glib-21.01.0-24.el9_8.1.x86_64                                        
+  poppler-utils-21.01.0-24.el9_8.1.x86_64                                       
+  python-unversioned-command-3.9.25-7.el9_8.3.noarch                            
+  python3-3.9.25-7.el9_8.3.x86_64                                               
+  python3-firewall-1.3.4-20.el9_8.noarch                                        
+  python3-idna-2.10-8.el9_8.noarch                                              
+  python3-libs-3.9.25-7.el9_8.3.x86_64                                          
+  python3-libxml2-2.9.13-14.el9_8.4.x86_64                                      
+  python3-lxml-4.6.5-3.el9_8.1.x86_64                                           
+  python3-perf-5.14.0-687.50.1.el9_8.x86_64                                     
+  python3-urllib3-1.26.5-8.el9_8.noarch                                         
+  qemu-guest-agent-17:10.1.0-17.el9_8.5.x86_64                                  
+  rhc-1:0.2.7-11.el9_8.x86_64                                                   
+  rsync-3.2.7-1.el9_8.x86_64                                                    
+  rsyslog-8.2510.0-2.el9_8.2.x86_64                                             
+  rsyslog-gnutls-8.2510.0-2.el9_8.2.x86_64                                      
+  rsyslog-gssapi-8.2510.0-2.el9_8.2.x86_64                                      
+  rsyslog-logrotate-8.2510.0-2.el9_8.2.x86_64                                   
+  rsyslog-relp-8.2510.0-2.el9_8.2.x86_64                                        
+  samba-client-libs-4.23.5-11.el9_8.x86_64                                      
+  samba-common-4.23.5-11.el9_8.noarch                                           
+  samba-common-libs-4.23.5-11.el9_8.x86_64                                      
+  sg3_utils-1.47-10.el9_8.1.x86_64                                              
+  sg3_utils-libs-1.47-10.el9_8.1.x86_64                                         
+  sqlite-libs-3.34.1-11.el9_8.x86_64                                            
+  sssd-2.9.8-4.el9_8.1.x86_64                                                   
+  sssd-ad-2.9.8-4.el9_8.1.x86_64                                                
+  sssd-client-2.9.8-4.el9_8.1.x86_64                                            
+  sssd-common-2.9.8-4.el9_8.1.x86_64                                            
+  sssd-common-pac-2.9.8-4.el9_8.1.x86_64                                        
+  sssd-ipa-2.9.8-4.el9_8.1.x86_64                                               
+  sssd-kcm-2.9.8-4.el9_8.1.x86_64                                               
+  sssd-krb5-2.9.8-4.el9_8.1.x86_64                                              
+  sssd-krb5-common-2.9.8-4.el9_8.1.x86_64                                       
+  sssd-ldap-2.9.8-4.el9_8.1.x86_64                                              
+  sssd-proxy-2.9.8-4.el9_8.1.x86_64                                             
+  sudo-1.9.17p2-3.el9_8.1.x86_64                                                
+  tar-2:1.34-13.el9_8.x86_64                                                    
+  texlive-lib-9:20200406-26.el9_2.x86_64                                        
+  vim-common-2:8.2.2637-26.el9_8.21.x86_64                                      
+  vim-enhanced-2:8.2.2637-26.el9_8.21.x86_64                                    
+  vim-filesystem-2:8.2.2637-26.el9_8.21.noarch                                  
+  vim-minimal-2:8.2.2637-26.el9_8.21.x86_64                                     
+  webkit2gtk3-2.54.0-1.el9_8.x86_64                                             
+  webkit2gtk3-jsc-2.54.0-1.el9_8.x86_64                                         
+  wget-1.21.1-11.el9_8.x86_64                                                   
+  xorg-x11-server-Xorg-1.20.11-34.el9_8.3.x86_64                                
+  xorg-x11-server-Xwayland-24.1.9-4.el9_8.3.x86_64                              
+  xorg-x11-server-common-1.20.11-34.el9_8.3.x86_64                              
+  yelp-2:40.3-3.el9_8.1.x86_64                                                  
+  yelp-libs-2:40.3-3.el9_8.1.x86_64                                             
+Installed:
+  kernel-5.14.0-687.50.1.el9_8.x86_64                                           
+  kernel-core-5.14.0-687.50.1.el9_8.x86_64                                      
+  kernel-modules-5.14.0-687.50.1.el9_8.x86_64                                   
+  kernel-modules-core-5.14.0-687.50.1.el9_8.x86_64                              
+  perl-Module-Load-1:0.36-4.el9.noarch                                          
+
+Complete!
