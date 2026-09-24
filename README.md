@@ -19,7 +19,7 @@ This repository documents my progress through practical exercises, commands, tro
 | [01 — Remote Administration and Log Integrity](./01-remote-administration/README.md) | Network configuration, SSH, administrative access, authentication logs, SCP, and SHA-256 verification | Completed |
 | [02 — Linux File Ownership and Permissions](./02-file-permissions/README.md) | File modes, directory access, deletion controls, umask, and group-based access tests | Completed |
 | [03 — Patching and Change Control](./03-patching-and-change-control/README.md) | Update assessment, recovery checkpoint, security patching, reboot validation, and evidence collection | Completed |
-| [Part 4: Credentialed Vulnerability Scanning and Remediation](04-vulnerability-management/) — Completed. Scanned the RHEL VM with Nessus Essentials, blocked ICMP timestamp requests with firewalld, and verified the targeted finding cleared on a credentialed rescan.
+| [Part 4: Credentialed Vulnerability Scanning and Remediation](04-vulnerability-management/) | Scanned the RHEL VM with Nessus Essentials, blocked ICMP timestamp requests with firewall, and verified the targeted finding cleared on a credentialed rescan | Completed |
 
 ## Completed milestone: Part 1
 
