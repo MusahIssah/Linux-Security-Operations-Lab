@@ -8,7 +8,7 @@ This repository documents my progress through practical exercises, commands, tro
 
 See my Linux Security Operations Lab in action: SSH access, file permissions, security patching, and Nessus vulnerability scanning and remediation.
 
-[![Watch the Linux Security Lab walkthrough](https://img.youtube.com/vi/oW2EyVbyPPo/hqdefault.jpg)](https://youtu.be/oW2EyVbyPPo)
+[![Watch the Linux Security Lab walkthrough](./linux-security-lab-walkthrough-thumbnail.png)](https://youtu.be/oW2EyVbyPPo)
 
 ▶️ [Watch the walkthrough on YouTube](https://youtu.be/oW2EyVbyPPo)
 ## Lab environment
