@@ -52,7 +52,7 @@ uname -r
 df -h / /boot
 systemctl --failed --no-pager
 getenforce
-systemctl is-active sshd firewalld
+systemctl is-active sshd firewall
 } | tee ~/lab-evidence/part3/pre-patch-baseline.txt
 rpm -qa | sort > ~/lab-evidence/part3/packages-before.txt
 sudo dnf updateinfo list updates security | tee ~/lab-evidence/part3/security-updates-before.txt
